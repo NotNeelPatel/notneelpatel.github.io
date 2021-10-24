@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Neel Patel</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Neel Patel" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Neel Patel" />
+<script type="application/ld+json">
+{"@type":"WebSite","headline":"Neel Patel","url":"http://localhost:4000/","name":"Neel Patel","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Neel Patel" /></head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+  .container{
+      max-width: 1100px;
+      margin:auto;
+  }
+  a, p, ul li, ol li, h1, h2, h3, h4, h5, h6 {
+      font-family: "Roboto Mono", monospace;
+  }
+  a, p, ul li, ol li {
+      font-size: 1.1rem;
+  }
+  a, h1, h2 {
+        color: white;
+    }
+  header {
+      color: white;
+      text-align: center;
+      background: #2e2e2e;
+      padding: 1em;
+      margin: auto;
+      max-width: 800px;
+  }
+
+  ul {
+    width: auto;
+    text-align: center;
+  }
+  
+  body {
+  background-color:#242424;
+  color:#aaaaaa;
+  }
+  
+  main {
+      background: #242424;
+      padding: 1em;
+      margin: auto;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  hr.main {
+    max-width: 800px;
+    min-width: 500px;
+    border: 1px solid #2e2e2e;
+  }
+
+  #centerText {
+  border: solid 3px #2e2e2e;
+  padding: 0.8em;
+  max-width: 800px;
+  min-width: 500px;
+  width: fit-content;
+  margin: auto;
+  line-height: 1.8;
+  }
+  
+  #title {
+  text-align: center;
+  }
+
+  #partition {
+    background: #242424;
+    padding: 0.5em;
+    margin: auto;
+  }
+
+</style>
+
+<body><header class="site-header" role="banner">
+
+  <h1>Neel Patel</h1>
+    <nav>
+      <ul>
+       <a href="/">Home</a>
+        <a href="/about/">About</a>
+      </ul>
+    </nav>
+  </div>
+        
+</header>
+
+<main class="page-content" aria-label="Content">
+  <div id=title>
+    <h2 class="post-list-heading">Posts</h2>
+  </div> 
+  <hr class = "main">
+  <div id=partition></div>
+  <div id="centerText">
+        <div class="wrapper">
+          <div class="home">
+  {% for post in site.posts %}
+  <p><a href="{{ post.url }}">{{ post.title }}</a> |{{ post.date | date: '%m/%d/%Y' }}</p></li>
+  {% endfor %}
+  </div>
+</main>
+</body>
+</html>
