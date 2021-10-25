@@ -72,12 +72,20 @@
   
   </style>
 
+<head>
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
+  <title>{{page.title}}</title>
+</head>
+
 <body><header class="site-header" role="banner">
 
     <h1>Neel Patel</h1>
       <nav>
         <ul>
-         <a href="/">Home</a>
+          <a href="/">Home</a>
+          <a>|</a>
+          <a href="/tags/">Tags</a>
+          <a>|</a>
           <a href="/about/">About</a>
         </ul>
       </nav>
@@ -86,11 +94,9 @@
 
 <main>
     <div id=title>
-        <h2 class="post-list-heading">About</h2>
+        <h2 class="post-list-heading">{{page.title}}</h2>
       </div> 
       <hr class = "main">
       <div id=partition></div>
-    <div id="centerText">
     {{content}}
-    </div>
 </main>

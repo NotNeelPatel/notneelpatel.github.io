@@ -69,15 +69,25 @@
       padding: 0.5em;
       margin: auto;
     }
+
   
   </style>
+
+<head>
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
+  <title>{{page.title}}</title>
+  <a name="top"></a>
+</head>
 
 <body><header class="site-header" role="banner">
 
     <h1>Neel Patel</h1>
       <nav>
         <ul>
-         <a href="/">Home</a>
+          <a href="/">Home</a>
+          <a>|</a>
+          <a href="/tags/">Tags</a>
+          <a>|</a>
           <a href="/about/">About</a>
         </ul>
       </nav>
@@ -94,4 +104,15 @@
     <h3>{{page.date | date: '%m/%d/%Y'}}</h3>
     {{content}}
     </div>
+    <div id=partition></div>
+    <div id=title>
+      <h3>Tags: <a href="/tags/">{{page.tags}}</a> </h3>
+    </div>
+    <div id=partition></div>
+    <hr class = "main">
 </main>
+<footer>
+  <div id=title>
+    <a href="#top">Top ↑</a>
+  </div>
+</footer>

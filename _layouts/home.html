@@ -87,12 +87,19 @@
 
 </style>
 
+<head>
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
+</head>
+
 <body><header class="site-header" role="banner">
 
   <h1>Neel Patel</h1>
     <nav>
       <ul>
-       <a href="/">Home</a>
+        <a href="/">Home</a>
+        <a>|</a>
+        <a href="/tags/">Tags</a>
+        <a>|</a>
         <a href="/about/">About</a>
       </ul>
     </nav>
@@ -110,7 +117,7 @@
         <div class="wrapper">
           <div class="home">
   {% for post in site.posts %}
-  <p><a href="{{ post.url }}">{{ post.title }}</a> |{{ post.date | date: '%m/%d/%Y' }}</p></li>
+  <p><a href="{{ post.url }}">{{ post.title }}</a> | {{ post.date | date: '%m/%d/%Y' }}</p>
   {% endfor %}
   </div>
 </main>

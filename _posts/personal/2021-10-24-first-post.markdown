@@ -2,7 +2,7 @@
 layout: post
 title:  "First Post"
 date:   2021-10-24
-categories: personal
+tag: personal
 ---
 Welcome to my first blog post. I made this website in pursuit of improving my general skills as a programmer, engineer, typist, etc. Blogs also allow me to document and share my thoughts and experiences with the world, and maybe this will lead to greater things in the future. 
 
