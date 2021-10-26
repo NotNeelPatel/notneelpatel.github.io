@@ -8,9 +8,10 @@ permalink: /tags/
 <div id=title>
 <h2> {{tag[0]}}</h2>
 </div>
-{% for post in tag[1] %}
 
 <div id="centerText">
+{% for post in tag[1] %}
+
  <p><a href="{{ post.url }}">{{ post.title }}</a> | {{ post.date | date: '%m/%d/%Y' }}</p>
 
 {% endfor %}
