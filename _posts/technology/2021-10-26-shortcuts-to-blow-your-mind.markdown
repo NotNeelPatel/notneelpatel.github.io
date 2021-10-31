@@ -44,12 +44,6 @@ tag: technology
 <a>Shift + Page Up/Down</a>
 <p>- Selects everything before/after your the blinking I beam respectively</p>
 <hr class = "main">
-<a>Alt + Left</a>
-<p>- Go back a page</p>
-<hr class = "main">
-<a>Alt + Right</a>
-<p>- Go forward a page</p>
-<hr class = "main">
 <a>Ctrl + Shift + V</a>
 <p>- Pastes with whatever formatting you have in your document</p>
 <hr class = "main">
@@ -80,6 +74,12 @@ tag: technology
 <hr class = "main">
 <a>Ctrl + [Number] </a>
 <p>- Goes to nth tab in browser</p>
+<hr class = "main">
+<a>Alt + Left</a>
+<p>- Go back a page</p>
+<hr class = "main">
+<a>Alt + Right</a>
+<p>- Go forward a page</p>
 <hr class = "main">
 
 <div id=title>

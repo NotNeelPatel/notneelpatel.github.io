@@ -1,80 +1,87 @@
 ---
 ---
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
-    .container{
-        max-width: 1100px;
-        margin:auto;
-    }
-    a, p, ul li, ol li, h1, h2, h3, h4, h5, h6 {
-        font-family: "Roboto Mono", monospace;
-    }
-    a, p, ul li, ol li {
-        font-size: 1.1rem;
-    }
-    a, h1, h2 {
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+  .container {
+      max-width: 1100px;
+      margin:auto;
+  }
+  a, p, ul li, ol li, h1, h2, h3, h4, h5, h6 {
+      font-family: "Roboto Mono", monospace;
+  }
+  a, p, ul li, ol li {
+      font-size: 1.1rem;
+  }
+  a, h1, h2 {
         color: white;
     }
-    header {
-        color: white;
-        text-align: center;
-        background: #2e2e2e;
-        padding: 1em;
-        margin: auto;
-        max-width: 800px;
-    }
-  
-    ul {
-      width: auto;
+  a:hover {
+    color: #aaaaaa
+  }
+  a.footer {
+    font-size: 0.9rem;
+    color: #aaaaaa;
+    line-height: 2em;
+  }
+  header {
+      color: white;
       text-align: center;
-    }
-    
-    body {
-    background-color:#242424;
-    color:#aaaaaa;
-    }
-    
-    main {
-        background: #242424;
-        padding: 1em;
-        margin: auto;
-    }
-  
-    ul {
-      margin: 0;
-      padding: 0;
-    }
-  
-    hr.main {
+      background: #2e2e2e;
+      padding: 1em;
+      margin: auto;
       max-width: 800px;
-      min-width: 500px;
-      border: 1px solid #2e2e2e;
-    }
+  }
+
+  ul {
+    width: auto;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
   
-    #centerText {
-    border: solid 3px #2e2e2e;
-    padding: 0.8em;
+  body {
+  background-color:#242424;
+  color:#aaaaaa;
+  }
+  
+  main {
+      background: #242424;
+      padding: 1em;
+      margin: auto;
+  }
+
+  hr.main {
     max-width: 800px;
     min-width: 500px;
-    width: fit-content;
+    border: 1px solid #2e2e2e;
+  }
+
+  #centerText {
+  border: solid 3px #2e2e2e;
+  padding: 0.8em;
+  max-width: 800px;
+  min-width: 500px;
+  width: fit-content;
+  margin: auto;
+  line-height: 1.8;
+  }
+  
+  #title {
+  text-align: center;
+  }
+
+  #partition {
+    background: #242424;
+    padding: 0.5em;
     margin: auto;
-    }
-    
-    #title {
-    text-align: center;
-    }
-  
-    #partition {
-      background: #242424;
-      padding: 0.5em;
-      margin: auto;
-    }
-  
-  </style>
+  }
+
+</style>
 
 <head>
   <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
   <title>{{page.title}}</title>
+  <a name="top"></a>
 </head>
 
 <body><header class="site-header" role="banner">
@@ -100,3 +107,32 @@
       <div id=partition></div>
     {{content}}
 </main>
+</body>
+
+<footer>
+  <div id=partition></div>
+  <hr class = "main">
+  <div id="title">
+    <nav>
+      <ul>
+        <a href="https://github.com/NotNeelPatel" class="footer">GitHub</a>
+        <a class="footer">|</a>
+        <a href="" class="footer">YouTube (Coming soon!)</a>
+      </ul>
+    </nav>
+    <nav>
+      <ul>
+        <a href="/" class="footer">Home</a>
+        <a class="footer">|</a>
+        <a href="/tags/" class="footer">Tags</a>
+        <a class="footer">|</a>
+        <a href="/about/" class="footer">About</a>
+      </ul>
+    </nav>
+    <div id="partition"></div>
+    <div id=title>
+      <a href="#top" >↑ Top of page ↑</a>
+    </div>
+    <div id="partition"></div>
+  </div>
+</footer>
