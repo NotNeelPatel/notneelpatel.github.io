@@ -10,6 +10,6 @@ One of the things I'd like to share is something that I learned that week. This 
 
 Oh, and one other thing I learned is how to insert images in markdown. Here's a picture of a cat:
 
-![picture of a cat sleeping](/assets/img/cat_sleeping.png)
-
--Neel
+<div id="centerText">
+<img src="/assets/img/cat_sleeping.png" alt="picture of a cat sleepin" width="100%" loading="lazy"/>
+</div>

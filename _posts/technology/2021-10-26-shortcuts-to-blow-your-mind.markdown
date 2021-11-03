@@ -30,13 +30,13 @@ tag: technology
 <a>Pause / Pause Break</a> 
 <p>- pauses the computer during POST so you can read the text</p>
 <hr class = "main">
-<div id=partition></div>
+<br>
 <a>You can select text to "copy" and "paste" it with middle click</a>
-<div id=partition></div>
+<br>
 <hr class = "main">
-<div id=partition></div>
+<br>
 <a>Double-Click to select words, Triple-click to select lines</a>
-<div id=partition></div>
+<br>
 <hr class = "main">
 <a>Shift + Home/End</a>
 <p>- Selects everything in that line before/after your the blinking I beam respectively</p>

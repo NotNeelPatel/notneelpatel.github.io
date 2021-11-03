@@ -15,10 +15,15 @@
 <!-- End Jekyll SEO tag -->
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Neel Patel" /></head>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@350&display=swap');
   .container {
       max-width: 1100px;
       margin:auto;
+  }
+  @viewport {
+  width: device-width ;
+  zoom: 1.0 ;
   }
   a, p, ul li, ol li, h1, h2, h3, h4, h5, h6 {
       font-family: "Roboto Mono", monospace;
@@ -43,7 +48,8 @@
       background: #2e2e2e;
       padding: 1em;
       margin: auto;
-      max-width: 800px;
+      width: auto;
+      max-width: 50em;
   }
 
   ul {
@@ -65,16 +71,15 @@
   }
 
   hr.main {
-    max-width: 800px;
-    min-width: 500px;
+    max-width: 50em;
     border: 1px solid #2e2e2e;
   }
 
   #centerText {
   border: solid 3px #2e2e2e;
   padding: 0.8em;
-  max-width: 800px;
-  min-width: 500px;
+  max-width: 50em;
+
   width: fit-content;
   margin: auto;
   line-height: 1.8;
@@ -84,17 +89,12 @@
   text-align: center;
   }
 
-  #partition {
-    background: #242424;
-    padding: 0.5em;
-    margin: auto;
-  }
-
 </style>
 
 <head>
   <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
   <a name="top"></a>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body><header class="site-header" role="banner">
@@ -118,7 +118,7 @@
     <h2 class="post-list-heading">Posts</h2>
   </div> 
   <hr class = "main">
-  <div id=partition></div>
+  <br>
   <div id="centerText">
         <div class="wrapper">
           <div class="home">
@@ -129,7 +129,6 @@
 </main>
 </body>
 <footer>
-  <div id=partition></div>
   <hr class = "main">
   <div id="title">
     <nav>
@@ -148,11 +147,11 @@
         <a href="/about/" class="footer">About</a>
       </ul>
     </nav>
-    <div id="partition"></div>
+    <br>
     <div id=title>
       <a href="#top" >↑ Top of page ↑</a>
     </div>
-    <div id="partition"></div>
+    <br>
   </div>
 </footer>
 </html>

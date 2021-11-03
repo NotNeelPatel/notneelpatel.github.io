@@ -17,7 +17,8 @@ Arch Linux is considered to be one of the best distros for many valid reasons, b
 Debian 11 Bullseye is what I'm using right now. It's considered to as the "Granddaddy of 'all' distros" (while not entirely true, it is what Ubuntu is based off of, along with many other distros). Ubuntu is the most mainstream distro, and is normally what people think of when they think of Linux, so naturally that's the only option that's ever listed whenever I need to install some application. With Debian, I have the ability to do mostly everything someone on Ubuntu is able to do.
 
 In the weeks between the end of Cadets summer training and the first day of school, I really familiarized myself with the KDE desktop environment and the terminal. I also started using FOSS (free and open-source) alternatives to proprietary software, such as GIMP and open-source versions of Chrome (chromium) and VSCode (codium). Doing little things like that and also having a really cool and aesthetically-pleasing rice (ricing refers to customizing your setup) (also, I made that wallpaper, the center features a manga panel from *Samurai Champloo*).
-
-<img src="/assets/img/setup.png" alt="my really cool setup" width="800"/>
+<div id="centerText">
+<img src="/assets/img/setup.png" alt="my really cool setup" width="100%" loading="lazy"/>
+</div>
 
 If you read this all, thanks for reading. While I don't hate Windows, I just enjoy Linux significantly more. It makes me feel like I'm the homeowner, and not merely a member of the household. 
