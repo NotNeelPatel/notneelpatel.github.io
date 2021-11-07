@@ -86,6 +86,12 @@
 
 </style>
 
+<html>
+  <meta content="Neel Patel" property="og:title" />
+  <meta content="https://notneelpatel.github.io" property="og:url" />
+  <meta content="/assets/favicon.png" property="og:image" />
+  <meta content="#242424" data-react-helmet="true" name="theme-color" />
+
 <head>
   <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
   <title>{{page.title}}</title>
@@ -150,21 +156,4 @@
     <br>
   </div>
 </footer>
-
-<script>
-  // Get the img object using its Id
-  img = document.getElementById("img1");
-  // Function to increase image size
-  function enlargeImg() {
-    // Set image size to 1.5 times original
-    img.style.transform = "scale(1.5)";
-    // Animation effect 
-    img.style.transition = "transform 0.25s ease";
-  }
-  // Function to reset image size
-  function resetImg() {
-    // Set image size to original
-    img.style.transform = "scale(1)";
-    img.style.transition = "transform 0.25s ease";
-  }
-</script>
+</html>
