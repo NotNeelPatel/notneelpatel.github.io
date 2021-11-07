@@ -87,10 +87,12 @@
 </style>
 
 <html>
-  <meta content="Neel Patel" property="og:title" />
-  <meta content="https://notneelpatel.github.io" property="og:url" />
-  <meta content="/assets/favicon.png" property="og:image" />
-  <meta content="#242424" data-react-helmet="true" name="theme-color" />
+  <meta property="og:site_name" content="Neel Patel" />
+  <meta property="og:title" content="{{page.title}}" />
+  <meta property="og:description" content="{{page.excerpt | strip_html}}" />
+  <meta property="og:url" content="https://notneelpatel.github.io" />
+  <meta property="og:image" content="/assets/favicon.png" />
+  <meta name="theme-color" content="#242424" data-react-helmet="true" />
 
 <head>
   <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">

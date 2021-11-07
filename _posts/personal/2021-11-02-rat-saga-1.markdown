@@ -5,7 +5,7 @@ date: 2021-11-02
 tag: personal
 ---
 
-<h3>Time Frame: July 2021 - October 2021</h3>
+### Time Frame: July 2021 - October 2021
 It was some time around July of 2021, when I went to bed and started hearing tapping sounds from the ceiling. I immediately knew what was happening: there's some kind of rodent (which from now on, I'll refer to as a rat) in between the floor of the first floor and the ceiling of the basement.
 
 It's not *that* big of a deal when you hear the occasional scutter, but when you're tired and trying to get a good night's rest, it's a major pain. I'd constantly hear metal clanging and scurrying around throughout the night to a point that I started playing music to drown out the sound a little.
@@ -25,7 +25,7 @@ The rat seems to only be using the house as a shelter (foreshadowing). This is k
 
 To this day, I have not seen the rat with my eyes, and the proof that I have is the rat's poop.
 
-<h2>Rat: 1</h2>
-<h2>Neel: 0</h2>
+## Rat: 1
+## Neel: 0
     
 *Stay tuned for the Rat Saga, Pt.2, it's going to be a good one*
