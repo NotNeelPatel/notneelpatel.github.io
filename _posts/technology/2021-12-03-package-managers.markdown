@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Package Managers will Change Your life"
+title: "Package Managers Will Change Your Life"
 date: 2021-12-03
 tag: technology
 ---
