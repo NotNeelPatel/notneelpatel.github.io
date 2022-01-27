@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using The Colemak Keyboard Layout - Week 1"
-date: 2021-12-24
+date: 2022-01-26
 tag: [technology, personal]
 ---
 
