@@ -128,8 +128,13 @@
     </div>
     <br>
     <div id=title>
-      <h3>Tags: <a href="/tags/">{{page.tags}}</a> </h3>
+      <h3>Tags: 
+      {% for tag in page.tags %}
+      <a href="/tags/">{{tag}}</a>
+      {% endfor %}</h3>
     </div>
+
+
 </main>
 </body>
 <footer>
