@@ -13,7 +13,7 @@
 # For neel: Use this to run locally
 # bundle exec jekyll serve --baseurl=""
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -25,11 +25,11 @@
 
 title: Neel Patel
 baseurl: "notneelpatel.github.io"
+timezone: America/New_York
 
 # Build settings
 plugins:
   - jekyll-feed
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
