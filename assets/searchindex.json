@@ -1,0 +1,40 @@
+{
+  "blogs": [
+    {
+      "title": "Blog 1",
+      "date": "2022-02-24",
+      "url": "https://notneelpatel.github.io/blog/2021-10-24-how-i-switched-to-linux.html",
+      "description": "description"
+    },
+    {
+      "title": "Blog 2",
+      "date": "2022-02-24",
+      "url": "https://notneelpatel.github.io/blog/2021-10-24-how-i-switched-to-linux.html",
+      "description": "description"
+    },
+    {
+      "title": "Blog 3",
+      "date": "2022-02-24",
+      "url": "https://notneelpatel.github.io/blog/2021-10-24-how-i-switched-to-linux.html",
+      "description": "description"
+    },
+    {
+      "title": "florg 4",
+      "date": "2022-02-24",
+      "url": "https://notneelpatel.github.io/blog/2021-10-24-how-i-switched-to-linux.html",
+      "description": "description"
+    },
+    {
+      "title": "How I Switched to Linux",
+      "date": "2021-10-24",
+      "url": "https://notneelpatel.github.io/blog/2021-10-24-how-i-switched-to-linux.html",
+      "description": "I've used Windows from XP all the way up to 10. For roughly 15 years of my life, I've been in the DOS ecosystem. While Windows 10 isn't terrible, Linux is just way more customizeable and really great if you actually care about how your computer hardware and software works."
+    }
+ ,{
+			"title" : "How I Switched to Linux",
+			"date" : "2021-10-24",
+			"url" : "https://notneelpatel.github.io/blog/2021-10-24-how-i-switched-to-linux.html",
+			"description" : "I've used Windows from XP all the way up to 10. For roughly 15 years of my life, I've been in the DOS ecosystem. While Windows 10 isn't terrible, Linux is just way more customizeable and really great if you actually care about how your computer hardware and software works."
+		}
+	]
+}
