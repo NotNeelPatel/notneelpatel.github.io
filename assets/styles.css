@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+@viewport {
+    width: device-width;
+    zoom: 1;
+}
+
+h1 {
+    font-family: "PT Serif", serif;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    font-weight: 100;
+    display: inline-table;
+
+}
+
+h2 {
+    font-family: "JetBrains Mono", monospace;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: #8bc7ff
+}
+
+a:hover {
+    color: #aaa
+}
+
+hr {
+    color: #777
+}
+
+hr.main {
+    max-width: 90%;
+    height: 4px;
+}
+
+header {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+body {
+    font-family: "Inconsolata", monospace;
+    background-color: #000;
+    color: #fff
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#main-container {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+img {
+    padding: auto;
+    border: 1px solid #aaa;
+
+}
+
+footer {
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+footer a {
+    color: #777
+}
+
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 50%;
+    gap: 1em;
+}
+
+input {
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.5em;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: solid 1px #aaa;
+}
+
+.entries {
+    margin: 0 auto;
+    display: grid;
+    gap: 0.25em;
+}
+
+.hide {
+    display: none;
+}
