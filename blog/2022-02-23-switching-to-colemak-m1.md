@@ -1,6 +1,6 @@
 <!---
 title:Using The Colemak Keyboard Layout - 1 Month
-date:Wed, 23 Feb 2022 10:00:00 EDT
+date:Wed, 23 Feb 2022 10:00:00 EST
 description:After using Colemak for 1 month, I have some thoughts.
 --->
 

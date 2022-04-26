@@ -1,6 +1,6 @@
 <!---
 title:Drawing Tablets - The Best Investment for Students
-date:Sun, 31 Oct 2021 15:00:00 EDT
+date:Sun, 31 Oct 2021 15:00:00 EST
 description: I try to convince you that touchscreen laptops and iPads are not worth it.
 --->
 

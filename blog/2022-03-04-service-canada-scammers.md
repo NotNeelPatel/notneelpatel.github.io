@@ -1,6 +1,6 @@
 <!---
 title:Dealing With Scammers
-date:Fri, 04 Mar 2022 13:00:00 EDT
+date:Fri, 04 Mar 2022 13:00:00 EST
 description:Recently I've been getting lots of phone calls from scammers. The call starts with an automated message from "Service Canada" and that there's something wrong with your social security number.
 --->
 

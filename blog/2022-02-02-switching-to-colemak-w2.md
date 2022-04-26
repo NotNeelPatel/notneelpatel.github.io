@@ -1,6 +1,6 @@
 <!---
 title:Using The Colemak Keyboard Layout - Week 2
-date:Wed, 02 Feb 2022 22:00:00 EDT
+date:Wed, 02 Feb 2022 22:00:00 EST
 description:Progress has dramatically slowed down since last week. Last week, I went from 1 wpm to 30 wpm, and this week I went from 30 wpm to 45 wpm.
 --->
 

@@ -1,4 +1,6 @@
-<rss xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+	xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<atom:link href="https://notneelpatel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 		<title>Not Neel Patel</title>
@@ -6,11 +8,10 @@
 		<description>Neel Patel's blog RSS</description>
 		<language>en-us</language>
 
-
 		<item>
 			<title>How I Switched to Linux
 			</title>
-			<pubDate>Sun, 24 Oct 2021 20:00:00 EDT</pubDate>
+			<pubDate>Sun, 24 Oct 2021 20:00:00 EST</pubDate>
 			<link>https://notneelpatel.github.io/blog/2021-10-24-first-post.html</link>
 			<guid>https://notneelpatel.github.io/blog/2021-10-24-first-post.html</guid>
 			<description>Welcome to my first blog post. I made this website in pursuit of improving my general skills as a programmer, engineer, typist, etc. Blogs also allow me to document and share my thoughts and experiences with the world, and maybe this will lead to greater things in the future.
@@ -20,7 +21,7 @@
 		<item>
 			<title>How I Switched to Linux
 			</title>
-			<pubDate>:Sun, 24 Oct 2021 22:00:00 EDT
+			<pubDate>:Sun, 24 Oct 2021 22:00:00 EST
 
 			</pubDate>
 			<link>https://notneelpatel.github.io/blog/2021-10-24-how-i-switched-to-linux.html</link>
@@ -32,7 +33,7 @@
 		<item>
 			<title>Drawing Tablets - The Best Investment for Students
 			</title>
-			<pubDate>:Sun, 31 Oct 2021 15:00:00 EDT
+			<pubDate>:Sun, 31 Oct 2021 15:00:00 EST
 
 			</pubDate>
 			<link>https://notneelpatel.github.io/blog/2021-10-31-drawing-tablets-best-investment.html</link>
@@ -44,7 +45,7 @@
 		<item>
 			<title>The Rat Saga, Pt.1
 			</title>
-			<pubDate>:Tue, 02 Oct 2021 14:00:00 EDT
+			<pubDate>:Tue, 02 Oct 2021 14:00:00 EST
 
 			</pubDate>
 			<link>https://notneelpatel.github.io/blog/2021-11-02-rat-saga-1.html</link>
@@ -56,7 +57,7 @@
 		<item>
 			<title>DuckDuckGo - Just for Privacy?
 			</title>
-			<pubDate>:Fri, 24 Dec 2021 21:00:00 EDT
+			<pubDate>:Fri, 24 Dec 2021 21:00:00 EST
 
 			</pubDate>
 			<link>https://notneelpatel.github.io/blog/2021-12-24-duckduckgo-vs-google.html</link>
@@ -68,7 +69,7 @@
 		<item>
 			<title>Using The Colemak Keyboard Layout - Week 1
 			</title>
-			<pubDate>:Wed, 26 Jan 2022 11:00:00 EDT
+			<pubDate>:Wed, 26 Jan 2022 11:00:00 EST
 
 			</pubDate>
 			<link>https://notneelpatel.github.io/blog/2022-01-26-switching-to-colemak-w1.html</link>
@@ -80,7 +81,7 @@
 		<item>
 			<title>Using The Colemak Keyboard Layout - Week 2
 			</title>
-			<pubDate>:Wed, 02 Feb 2022 22:00:00 EDT
+			<pubDate>:Wed, 02 Feb 2022 22:00:00 EST
 
 			</pubDate>
 			<link>https://notneelpatel.github.io/blog/2022-02-02-switching-to-colemak-w2.html</link>
@@ -92,7 +93,7 @@
 		<item>
 			<title>Using The Colemak Keyboard Layout - 1 Month
 			</title>
-			<pubDate>:Wed, 23 Feb 2022 10:00:00 EDT
+			<pubDate>:Wed, 23 Feb 2022 10:00:00 EST
 
 			</pubDate>
 			<link>https://notneelpatel.github.io/blog/2022-02-23-switching-to-colemak-m1.html</link>
@@ -104,7 +105,7 @@
 		<item>
 			<title>Dealing With Scammers
 			</title>
-			<pubDate>:Fri, 04 Mar 2022 13:00:00 EDT
+			<pubDate>:Fri, 04 Mar 2022 13:00:00 EST
 
 			</pubDate>
 			<link>https://notneelpatel.github.io/blog/2022-03-04-service-canada-scammers.html</link>
@@ -116,7 +117,7 @@
 		<item>
 			<title>New Site Layout
 			</title>
-			<pubDate>:Tues, 26 Apr 2022 11:00:00 EDT
+			<pubDate>:Tues, 26 Apr 2022 11:00:00 EST
 
 			</pubDate>
 			<link>https://notneelpatel.github.io/blog/2022-04-26-change-to-new-layout.html</link>

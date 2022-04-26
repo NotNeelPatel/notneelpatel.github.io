@@ -1,6 +1,6 @@
 <!---
 title:How I Switched to Linux
-date:Sun, 24 Oct 2021 22:00:00 EDT
+date:Sun, 24 Oct 2021 22:00:00 EST
 description:I've used Windows from XP all the way up to 10. For roughly 15 years of my life, I've been in the DOS ecosystem. While Windows 10 isn't terrible, Linux is just way more customizeable and really great if you actually care about how your computer hardware and software works.
 --->
 
