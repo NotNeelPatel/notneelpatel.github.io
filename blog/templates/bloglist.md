@@ -1,6 +1,10 @@
 ## Blog
 [RSS Feed](./feed.xml)
 
+2022-04-26 [New Site Layout](./blog/2022-04-26-change-to-new-layout.html)
+
+After about four months of working on/off on a new website layout, I've finally gotten to the point where I can share my website again...
+___
 2022-03-04 [Dealing With Scammers](./blog/2022-03-04-service-canada-scammers.html)
 
 Recently I've been getting lots of phone calls from scammers. The call starts with an automated message from "Service Canada" and that there's something wrong with your social security number....
