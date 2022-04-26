@@ -1,30 +1,6 @@
 [
   {
-    "title": "Blog 1",
-    "date": "2022-02-24",
-    "url": "https://notneelpatel.github.io/blog/2021-10-24-how-i-switched-to-linux.html",
-    "description": "description"
-  },
-  {
-    "title": "Blog 2",
-    "date": "2022-02-24",
-    "url": "https://notneelpatel.github.io/blog/2021-10-24-how-i-switched-to-linux.html",
-    "description": "description"
-  },
-  {
-    "title": "Blog 3",
-    "date": "2022-02-24",
-    "url": "https://notneelpatel.github.io/blog/2021-10-24-how-i-switched-to-linux.html",
-    "description": "description"
-  },
-  {
-    "title": "florg 4",
-    "date": "2022-02-24",
-    "url": "https://notneelpatel.github.io/blog/2021-10-24-how-i-switched-to-linux.html",
-    "description": "description"
-  },
-  {
-    "title": "How I Switched to Linux",
+    "title": "First Post",
     "date": "2021-10-24",
     "url": "https://notneelpatel.github.io/blog/2021-10-24-first-post.html",
     "description": "Welcome to my first blog post. I made this website in pursuit of improving my general skills as a programmer, engineer, typist, etc. Blogs also allow me to document and share my thoughts and experiences with the world, and maybe this will lead to greater things in the future."
