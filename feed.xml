@@ -3,13 +3,13 @@
 	xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<atom:link href="https://notneelpatel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-		<title>Not Neel Patel</title>
+		<title>Neel Patel</title>
 		<link>https://notneelpatel.github.io/</link>
 		<description>Neel Patel's blog RSS</description>
 		<language>en-us</language>
 
 		<item>
-			<title>How I Switched to Linux
+			<title>First Post
 			</title>
 			<pubDate>Sun, 24 Oct 2021 20:00:00 EST</pubDate>
 			<link>https://notneelpatel.github.io/blog/2021-10-24-first-post.html</link>
@@ -21,9 +21,7 @@
 		<item>
 			<title>How I Switched to Linux
 			</title>
-			<pubDate>:Sun, 24 Oct 2021 22:00:00 EST
-
-			</pubDate>
+			<pubDate>:Sun, 24 Oct 2021 22:00:00 EST</pubDate>
 			<link>https://notneelpatel.github.io/blog/2021-10-24-how-i-switched-to-linux.html</link>
 			<guid>https://notneelpatel.github.io/blog/2021-10-24-how-i-switched-to-linux.html</guid>
 			<description>I've used Windows from XP all the way up to 10. For roughly 15 years of my life, I've been in the DOS ecosystem. While Windows 10 isn't terrible, Linux is just way more customizeable and really great if you actually care about how your computer hardware and software works.
@@ -33,9 +31,7 @@
 		<item>
 			<title>Drawing Tablets - The Best Investment for Students
 			</title>
-			<pubDate>:Sun, 31 Oct 2021 15:00:00 EST
-
-			</pubDate>
+			<pubDate>:Sun, 31 Oct 2021 15:00:00 EST</pubDate>
 			<link>https://notneelpatel.github.io/blog/2021-10-31-drawing-tablets-best-investment.html</link>
 			<guid>https://notneelpatel.github.io/blog/2021-10-31-drawing-tablets-best-investment.html</guid>
 			<description> I try to convince you that touchscreen laptops and iPads are not worth it.
@@ -45,9 +41,7 @@
 		<item>
 			<title>The Rat Saga, Pt.1
 			</title>
-			<pubDate>:Tue, 02 Oct 2021 14:00:00 EST
-
-			</pubDate>
+			<pubDate>:Tue, 02 Oct 2021 14:00:00 EST</pubDate>
 			<link>https://notneelpatel.github.io/blog/2021-11-02-rat-saga-1.html</link>
 			<guid>https://notneelpatel.github.io/blog/2021-11-02-rat-saga-1.html</guid>
 			<description>It was some time around July of 2021, when I went to bed and started hearing tapping sounds from the ceiling. I immediately knew what was happening
@@ -57,9 +51,7 @@
 		<item>
 			<title>DuckDuckGo - Just for Privacy?
 			</title>
-			<pubDate>:Fri, 24 Dec 2021 21:00:00 EST
-
-			</pubDate>
+			<pubDate>:Fri, 24 Dec 2021 21:00:00 EST</pubDate>
 			<link>https://notneelpatel.github.io/blog/2021-12-24-duckduckgo-vs-google.html</link>
 			<guid>https://notneelpatel.github.io/blog/2021-12-24-duckduckgo-vs-google.html</guid>
 			<description>Ever since Google dominated the search engine market share (they even own the 2nd largest search engine, YouTube), it seems like it's the obvious choice. However
@@ -69,9 +61,7 @@
 		<item>
 			<title>Using The Colemak Keyboard Layout - Week 1
 			</title>
-			<pubDate>:Wed, 26 Jan 2022 11:00:00 EST
-
-			</pubDate>
+			<pubDate>:Wed, 26 Jan 2022 11:00:00 EST</pubDate>
 			<link>https://notneelpatel.github.io/blog/2022-01-26-switching-to-colemak-w1.html</link>
 			<guid>https://notneelpatel.github.io/blog/2022-01-26-switching-to-colemak-w1.html</guid>
 			<description>The start of a journey. While QWERTY works perfectly for me right now, I want to challenge myself to use a different layout to prove to myself that I am capable.
@@ -81,9 +71,7 @@
 		<item>
 			<title>Using The Colemak Keyboard Layout - Week 2
 			</title>
-			<pubDate>:Wed, 02 Feb 2022 22:00:00 EST
-
-			</pubDate>
+			<pubDate>:Wed, 02 Feb 2022 22:00:00 EST</pubDate>
 			<link>https://notneelpatel.github.io/blog/2022-02-02-switching-to-colemak-w2.html</link>
 			<guid>https://notneelpatel.github.io/blog/2022-02-02-switching-to-colemak-w2.html</guid>
 			<description>Progress has dramatically slowed down since last week. Last week, I went from 1 wpm to 30 wpm, and this week I went from 30 wpm to 45 wpm.
@@ -93,9 +81,7 @@
 		<item>
 			<title>Using The Colemak Keyboard Layout - 1 Month
 			</title>
-			<pubDate>:Wed, 23 Feb 2022 10:00:00 EST
-
-			</pubDate>
+			<pubDate>:Wed, 23 Feb 2022 10:00:00 EST</pubDate>
 			<link>https://notneelpatel.github.io/blog/2022-02-23-switching-to-colemak-m1.html</link>
 			<guid>https://notneelpatel.github.io/blog/2022-02-23-switching-to-colemak-m1.html</guid>
 			<description>After using Colemak for 1 month, I have some thoughts.
@@ -105,9 +91,7 @@
 		<item>
 			<title>Dealing With Scammers
 			</title>
-			<pubDate>:Fri, 04 Mar 2022 13:00:00 EST
-
-			</pubDate>
+			<pubDate>:Fri, 04 Mar 2022 13:00:00 EST</pubDate>
 			<link>https://notneelpatel.github.io/blog/2022-03-04-service-canada-scammers.html</link>
 			<guid>https://notneelpatel.github.io/blog/2022-03-04-service-canada-scammers.html</guid>
 			<description>Recently I've been getting lots of phone calls from scammers. The call starts with an automated message from "Service Canada" and that there's something wrong with your social security number.
@@ -117,9 +101,7 @@
 		<item>
 			<title>New Site Layout
 			</title>
-			<pubDate>:Tues, 26 Apr 2022 11:00:00 EST
-
-			</pubDate>
+			<pubDate>:Tues, 26 Apr 2022 11:00:00 EST</pubDate>
 			<link>https://notneelpatel.github.io/blog/2022-04-26-change-to-new-layout.html</link>
 			<guid>https://notneelpatel.github.io/blog/2022-04-26-change-to-new-layout.html</guid>
 			<description>After about four months of working on/off on a new website layout, I've finally gotten to the point where I can share my website again

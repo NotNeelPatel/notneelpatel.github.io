@@ -61,7 +61,7 @@ def UpdateSiteLinks(file):
     old_xml = old_xml[:-18]
     x = open("../feed.xml", 'w')
     x.write(old_xml)
-    x.write("\n\t\t<item>\n\t\t\t<title>"+xmltitle+"\n\t\t\t</title>\n\t\t\t<pubDate>"+xmldate+"\n\t\t\t</pubDate>\n\t\t\t<link>https://notneelpatel.github.io/blog/"+file +
+    x.write("\n\t\t<item>\n\t\t\t<title>"+xmltitle+"\n\t\t\t</title>\n\t\t\t<pubDate>"+xmldate+"</pubDate>\n\t\t\t<link>https://notneelpatel.github.io/blog/"+file +
             "</link>\n\t\t\t<guid>https://notneelpatel.github.io/blog/"+file+"</guid>\n\t\t\t<description>"+xmldescription+"\n\t\t\t</description>\n\t\t</item>\n\t</channel>\n</rss>")
     x.close()
 

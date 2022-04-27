@@ -54,7 +54,7 @@
         <a href="mailto:neelpatel1337@gmail.com"> get to know me more</a>, as
         well as provide you with inspiration of some kind. Enjoy your stay!
       </p>
-      <br />
+      <hr />
       <p style="text-align: center">
         ↓ Check out the chat, and some random images that I like ↓
       </p>
@@ -82,6 +82,7 @@
     <div style="display: inline-table; margin-left: 5%">
       <img id="indeximage1" src="" alt="pic" loading="lazy" />
       <img id="indeximage2" src="" alt="pic" loading="lazy" />
+      <img id="indeximage3" src="" alt="pic" loading="lazy" />
       <script>
         let images = [
           "MFDOOM.jpeg",
@@ -100,16 +101,50 @@
           "DOOM2.png",
           "Yukino.png",
           "KomiLamar.jpg",
+          "DOOM3.png",
+          "NGE3.png",
+          "Your_Name.png",
+          "Shikamaru.jpg",
+          "Kakashi.jpg",
+          "Erased.png",
+          "Katana_zero.jpg",
+          "Space.jpg",
+          "Half-Life.jpg",
+          "Debian.jpg",
+          "Lain.png",
+          "Ramiel.jpg",
+          "dust2.jpeg",
+          "Dropout_bear.jpg",
+          "Pac.png",
+          "Minecraft.png",
+          "Spider-man.jpeg",
+          "Hybrid-theory.jpg",
+          "J-Cole.jpg",
         ];
         let len = images.length;
-        let rand = Math.random();
-        rand = Math.floor(rand * len);
-        let image = images[rand];
-        indeximage1.src = "./assets/images/" + image;
-        rand = Math.random();
-        rand = Math.floor(rand * len);
-        image = images[rand];
-        indeximage2.src = "./assets/images/" + image;
+        let rand = 1;
+        let check = [0, 0, 0];
+        for (let i = 0; i < 3; i++) {
+          rand = Math.random();
+          rand = Math.floor(rand * len);
+          let image = images[rand];
+          if (!check.includes(rand)) {
+            check[i] = rand;
+            switch (i) {
+              case 0:
+                indeximage1.src = "./assets/images/" + image;
+                break;
+              case 1:
+                indeximage2.src = "./assets/images/" + image;
+                break;
+              case 2:
+                indeximage3.src = "./assets/images/" + image;
+                break;
+            }
+          } else {
+            i -= 1;
+          }
+        }
       </script>
     </div>
   </body>
@@ -129,5 +164,9 @@
       <a href="">YouTube (Coming soon!)</a>
     </ul>
     <a href="#top">↑ Top of page ↑</a>
+    <p style="font-size: 10px">
+      Disclamer: I do not own most of these images. They belong to their
+      rightful owner.
+    </p>
   </footer>
 </html>
