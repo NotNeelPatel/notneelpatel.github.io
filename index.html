@@ -62,57 +62,48 @@
       <p style="text-align: center">
         ↓ Check out the chat, and some random images that I like ↓
       </p>
-    </div>
-    <br />
-    <div
-      style="
-        display: inline-table;
-        margin-left: 5%;
-        margin-bottom: 0.5em;
-        border: 1px solid #aaa;
-      "
-    >
-      <iframe
-        src="https://www5.cbox.ws/box/?boxid=932125&boxtag=7tE6Rt"
-        width="100%"
-        height="250px"
-        allowtransparency="yes"
-        frameborder="0"
-        loading="lazy"
-        scrolling="auto"
-      ></iframe>
-    </div>
+      <br />
+      <div style="display: inline-table">
+        <iframe
+          src="https://www5.cbox.ws/box/?boxid=932125&boxtag=7tE6Rt"
+          width="250px"
+          height="215px"
+          allowtransparency="yes"
+          frameborder="0"
+          loading="lazy"
+          style="border: 1px solid #aaa"
+        ></iframe>
 
-    <div style="display: inline-table; margin-left: 5%">
-      <img id="indeximage1" src="" alt="pic" loading="lazy" />
-      <img id="indeximage2" src="" alt="pic" loading="lazy" />
-      <img id="indeximage3" src="" alt="pic" loading="lazy" />
-      <script>
-        let len = 37;
-        let rand = 1;
-        let check = [0, 0, 0];
-        for (let i = 0; i < 3; i++) {
-          rand = Math.random();
-          rand = Math.floor(rand * len);
-          let image = rand;
-          if (!check.includes(rand)) {
-            check[i] = rand;
-            switch (i) {
-              case 0:
-                indeximage1.src = "./assets/images/home/" + rand + ".jpg";
-                break;
-              case 1:
-                indeximage2.src = "./assets/images/home/" + rand + ".jpg";
-                break;
-              case 2:
-                indeximage3.src = "./assets/images/home/" + rand + ".jpg";
-                break;
+        <img id="indeximage1" src="" alt="pic" loading="lazy" />
+        <img id="indeximage2" src="" alt="pic" loading="lazy" />
+        <img id="indeximage3" src="" alt="pic" loading="lazy" />
+        <script>
+          let len = 37;
+          let rand = 1;
+          let check = [0, 0, 0];
+          for (let i = 0; i < 3; i++) {
+            rand = Math.random();
+            rand = Math.floor(rand * len);
+            let image = rand;
+            if (!check.includes(rand)) {
+              check[i] = rand;
+              switch (i) {
+                case 0:
+                  indeximage1.src = "./assets/images/home/" + rand + ".jpg";
+                  break;
+                case 1:
+                  indeximage2.src = "./assets/images/home/" + rand + ".jpg";
+                  break;
+                case 2:
+                  indeximage3.src = "./assets/images/home/" + rand + ".jpg";
+                  break;
+              }
+            } else {
+              i -= 1;
             }
-          } else {
-            i -= 1;
           }
-        }
-      </script>
+        </script>
+      </div>
     </div>
   </body>
   <footer>

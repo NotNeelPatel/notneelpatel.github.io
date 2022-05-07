@@ -79,9 +79,8 @@ li a {
 }
 
 img {
-    padding: auto;
+    margin: auto;
     border: 1px solid #aaa;
-
 }
 
 footer {
