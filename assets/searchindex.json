@@ -1,9 +1,39 @@
 [
   {
-    "title": "First Post",
-    "date": "2021-10-24",
-    "url": "https://notneelpatel.github.io/blog/2021-10-24-first-post.html",
-    "description": "Welcome to my first blog post. I made this website in pursuit of improving my general skills as a programmer, engineer, typist, etc. Blogs also allow me to document and share my thoughts and experiences with the world, and maybe this will lead to greater things in the future."
+    "title": "Home",
+    "date": "2022-04-26",
+    "url": "https://notneelpatel.github.io/",
+    "description": "Home Page"
+  },
+  {
+    "title": "Blog",
+    "date": "2022-04-26",
+    "url": "https://notneelpatel.github.io/blog",
+    "description": "Blog"
+  },
+  {
+    "title": "Links",
+    "date": "2022-05-04",
+    "url": "https://notneelpatel.github.io/links",
+    "description": "Links"
+  },
+  {
+    "title": "Search",
+    "date": "2022-04-26",
+    "url": "https://notneelpatel.github.io/search",
+    "description": "Search"
+  },
+  {
+    "title": "Projects",
+    "date": "2022-05-06",
+    "url": "https://notneelpatel.github.io/projects",
+    "description": "Projects"
+  },
+  {
+    "title": "Wallpaper Theme Converter",
+    "date": "2022-05-06",
+    "url": "notneelpatel.github.io/projects/wallpaper-theme-converter",
+    "description": "Converts the palettes of images to themes such as Gruvbox, Nord, and Solarized."
   },
   {
     "title": "How I Switched to Linux",
@@ -53,10 +83,10 @@
     "url": "https://notneelpatel.github.io/blog/2022-03-04-service-canada-scammers.html",
     "description": "Recently I've been getting lots of phone calls from scammers. The call starts with an automated message from 'Service Canada' and that there's something wrong with your social security number."
   },
-	{
-		"title": "New Site Layout",
-		"date": "2022-04-26",
-		"url": "https://notneelpatel.github.io/blog/2022-04-26-change-to-new-layout.html",
-		"description": "After about four months of working on/off on a new website layout, I've finally gotten to the point where I can share my website again"
-	}
+  {
+    "title": "New Site Layout",
+    "date": "2022-04-26",
+    "url": "https://notneelpatel.github.io/blog/2022-04-26-change-to-new-layout.html",
+    "description": "After about four months of working on/off on a new website layout, I've finally gotten to the point where I can share my website again"
+  }
 ]

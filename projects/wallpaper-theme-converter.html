@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wallpaper Theme Converter</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/WTCstyles.css" />
+    <script src="./assets/convert.js"defer></script>
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <header>
+    <h1>Wallpaper Theme Converter</h1>
+  </header>
+
+  <body>
+    <hr class="main" />
+    <br/>
+    <div id="main-container">
+      <div><input type="file" id="imageLoader" name="imageLoader" /></div>
+      <br/>
+      <canvas id="imageCanvas"></canvas>
+      <div style="display:flex; justify-content: center;"><button class="important-button"  id ="download-button" type="button" onclick="Download()">↓ Download ↓</button></div>
+      <div class="settings-buttons" style="text-align: center">
+        <h3>Select a theme</h3>
+        <hr class="body"/>
+      <button id ="theme" type="button" onclick="Gruvbox()">Gruvbox</button>
+      <button id ="theme" type="button" onclick="Nord()">Nord</button>
+      <button id ="theme" type="button" onclick="Solarized()">Solarized</button>
+      <hr class="body"/>
+<!---
+
+        
+        <button type="Custom">Custom Theme (this button does nothing atm)</button>
+
+--->
+        <button class="important-button" id="convert" type="button" onclick="initialize()">Convert</button>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <p>2022 Neel Patel</p>
+    <ul>
+      <a href="https://notneelpatel.github.io">My Website</a>
+      <a>|</a>
+      <a href="https://github.com/NotNeelPatel">GitHub</a>
+    </ul>
+  </footer>
+</html>

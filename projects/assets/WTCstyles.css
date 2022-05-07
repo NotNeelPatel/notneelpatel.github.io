@@ -13,7 +13,6 @@ h1 {
     word-spacing: 7px;
     font-weight: 100;
     display: inline-table;
-
 }
 
 h2 {
@@ -23,21 +22,21 @@ h2 {
 a {
     text-decoration: none;
     text-decoration-line: none;
-    color: #8bc7ff
 }
 
 a:hover {
     color: #aaa
 }
 
-hr {
-    color: #777
-}
-
 hr.main {
     max-width: 90%;
     height: 4px;
 }
+
+hr.body {
+    max-width: 75%;
+}
+
 
 header {
     margin-left: 5%;
@@ -50,27 +49,6 @@ body {
     color: #fff
 }
 
-ul {
-    list-style-type: none;
-    padding-right: 2.5%;
-    padding-left: 2.5%
-}
-
-li {
-    display: inline-block;
-
-}
-
-li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-#navbar {
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-}
-
 #main-container {
     margin-left: 2.5%;
     margin-right: 2.5%;
@@ -78,46 +56,59 @@ li a {
     padding-right: 2.5%;
 }
 
-img {
-    padding: auto;
-    border: 1px solid #aaa;
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    margin: 0.5em;
+    cursor: pointer;
+}
 
+.important-button {
+    font-size: medium;
+    border: double;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin: 0.5em;
+    cursor: pointer;
+}
+
+
+
+#imageLoader {
+    border: dashed 3px white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 5em;
+    background: #333;
+    width: 50%;
+    height: 20%;
+    cursor: pointer;
+    text-align: center;
+}
+
+#imageCanvas {
+    border: 3px solid #aaa;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 50%;
 }
 
 footer {
     margin-top: 0.5em;
     padding-top: 0.5em;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
 footer a {
     color: #777
-}
-
-.search-wrapper {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    max-width: 50%;
-    gap: 1em;
-}
-
-input {
-    background-color: transparent;
-    color: #fff;
-    font-size: 1.5em;
-    border-top-style: hidden;
-    border-left-style: hidden;
-    border-right-style: hidden;
-    border-bottom-style: solid 1px #aaa;
-}
-
-.entries {
-    margin: 0 auto;
-    display: grid;
-    gap: 0.25em;
-}
-
-.hide {
-    display: none;
 }

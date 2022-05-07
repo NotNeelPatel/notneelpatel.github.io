@@ -30,6 +30,10 @@
         <li><a> | </a></li>
         <li><a href="./blog.html">Blog</a></li>
         <li><a> | </a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a> | </a></li>
+        <li><a href="./links.html">Links</a></li>
+        <li><a> | </a></li>
         <li><a href="./search.html">Search</a></li>
       </ul>
     </div>
@@ -41,8 +45,8 @@
         student looking to make a name for myself... as well as for the other
         Neels, Patels, and Neel Patels that exist in this world. Welcome to my
         little mark on the internet, where I post
-        <a href="./blog.html">blogs</a> and will hopefully display other
-        projects in the future.
+        <a href="./blog.html">blogs</a> and
+        <a href="./projects.html">projects</a>.
       </p>
       <p>
         I like hip-hop music, the Linux desktop, tech, rhythm games, and making
@@ -84,61 +88,24 @@
       <img id="indeximage2" src="" alt="pic" loading="lazy" />
       <img id="indeximage3" src="" alt="pic" loading="lazy" />
       <script>
-        let images = [
-          "MFDOOM.jpeg",
-          "Kendrick.png",
-          "Emanon.png",
-          "Eva-01.png",
-          "Laintux.png",
-          "NGE_2.png",
-          "Mecha.png",
-          "SamChamploo.jpg",
-          "Nerv.png",
-          "SnoopMio.png",
-          "TakeCare.png",
-          "Willem.jpg",
-          "Rei.png",
-          "DOOM2.png",
-          "Yukino.png",
-          "KomiLamar.jpg",
-          "DOOM3.png",
-          "NGE3.png",
-          "Your_Name.png",
-          "Shikamaru.jpg",
-          "Kakashi.jpg",
-          "Erased.png",
-          "Katana_zero.jpg",
-          "Space.jpg",
-          "Half-Life.jpg",
-          "Debian.jpg",
-          "Lain.png",
-          "Ramiel.jpg",
-          "dust2.jpeg",
-          "Dropout_bear.jpg",
-          "Pac.png",
-          "Minecraft.png",
-          "Spider-man.jpeg",
-          "Hybrid-theory.jpg",
-          "J-Cole.jpg",
-        ];
-        let len = images.length;
+        let len = 37;
         let rand = 1;
         let check = [0, 0, 0];
         for (let i = 0; i < 3; i++) {
           rand = Math.random();
           rand = Math.floor(rand * len);
-          let image = images[rand];
+          let image = rand;
           if (!check.includes(rand)) {
             check[i] = rand;
             switch (i) {
               case 0:
-                indeximage1.src = "./assets/images/" + image;
+                indeximage1.src = "./assets/images/home/" + rand + ".jpg";
                 break;
               case 1:
-                indeximage2.src = "./assets/images/" + image;
+                indeximage2.src = "./assets/images/home/" + rand + ".jpg";
                 break;
               case 2:
-                indeximage3.src = "./assets/images/" + image;
+                indeximage3.src = "./assets/images/home/" + rand + ".jpg";
                 break;
             }
           } else {
