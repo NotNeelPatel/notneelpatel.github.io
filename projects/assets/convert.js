@@ -96,8 +96,7 @@ function Solarized(){
         108,113,196,
         38,139,210,
         42,161,152,
-        133,153,0
-    ]
+        133,153,0];
     convertButton.disabled = false;
 }
 
@@ -124,8 +123,7 @@ function Catppuccin(){
         195,186,198,
         217,224,238,
         201,203,255,
-        245,224,220,
-    ]
+        245,224,220];
     convertButton.disabled = false;
 }
 
