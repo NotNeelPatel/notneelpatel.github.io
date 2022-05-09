@@ -26,6 +26,12 @@ a {
     color: #8bc7ff
 }
 
+a.white {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: #fff
+}
+
 a:hover {
     color: #aaa
 }
@@ -81,6 +87,14 @@ li a {
 img {
     margin: auto;
     border: 1px solid #aaa;
+}
+
+#cusdis_thread {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+
 }
 
 footer {

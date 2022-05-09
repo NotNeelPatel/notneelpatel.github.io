@@ -18,6 +18,6 @@ In terms of features, my new website has gained and lost some. I'm no longer usi
 
 My home page also has random images everytime you refresh the page (using a simple Javascript script that selects a random number and chooses an image based on the array of images). I will be adding more in the future, and will also need to manually compress them as well since collectively they are about the same size as the rest of the website.
 
-Overall, I'm very pleased with the design of my website. There are things I still want to add, such as a comments under my blog posts as well as implementing random web apps on my website. If you're feeling nostalgic for the old design, here's my final screenshot before I published the new layout.
+Overall, I'm very pleased with the design of my website. There are things I still want to add, such as comments under my blog posts as well as implementing random web apps on my website. If you're feeling nostalgic for the old design, here's my final screenshot before I published the new layout.
 
 <img src="../assets/images/oldlayout.png" alt="old layout" title="Old Layout" width="100%" loading = "lazy"/>
