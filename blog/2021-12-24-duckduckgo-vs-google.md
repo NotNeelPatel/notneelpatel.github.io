@@ -4,7 +4,7 @@ date:Fri, 24 Dec 2021 21:00:00 EST
 description:Ever since Google dominated the search engine market share (they even own the 2nd largest search engine, YouTube), it seems like it's the obvious choice. However
 --->
 
-## DuckDuckGo - Just for Privacy?"
+## DuckDuckGo - Just for Privacy?
 
 ### 2021-12-24
 

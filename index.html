@@ -71,14 +71,10 @@
           allowtransparency="yes"
           frameborder="0"
           loading="lazy"
-          style="border: 1px solid #aaa"
+          style="border: 1px solid #aaa; margin-right: 0.25em"
         ></iframe>
-
-        <img id="indeximage1" src="" alt="pic" loading="lazy" />
-        <img id="indeximage2" src="" alt="pic" loading="lazy" />
-        <img id="indeximage3" src="" alt="pic" loading="lazy" />
         <script>
-          let len = 37;
+          let len = 39;
           let rand = 1;
           let check = [0, 0, 0];
           for (let i = 0; i < 3; i++) {
@@ -87,17 +83,13 @@
             let image = rand;
             if (!check.includes(rand)) {
               check[i] = rand;
-              switch (i) {
-                case 0:
-                  indeximage1.src = "./assets/images/home/" + rand + ".jpg";
-                  break;
-                case 1:
-                  indeximage2.src = "./assets/images/home/" + rand + ".jpg";
-                  break;
-                case 2:
-                  indeximage3.src = "./assets/images/home/" + rand + ".jpg";
-                  break;
-              }
+              var image_node = new Image();
+              image_node.alt = "pic";
+              image_node.loading = "lazy";
+              image_node.src = "./assets/images/home/" + rand + ".jpg";
+              image_node.style.marginLeft = "0.25em";
+              image_node.style.marginRight = "0.25em";
+              document.getElementById("main-container").appendChild(image_node);
             } else {
               i -= 1;
             }

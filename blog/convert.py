@@ -56,6 +56,8 @@ def UpdateSiteLinks(file):
         xmltitle)+12:xml_dataString.index("description:")]
     xmldescription = xml_dataString[len(xmltitle)+len(xmldate)+24:-1]
 
+    addComments(xmltitle, file)
+
     # Write into the XML file
     old_xml = readFile("../feed.xml")
     old_xml = old_xml[:-18]
@@ -90,8 +92,18 @@ def UpdateSiteLinks(file):
         input="./templates/bloglist.md", output="./templates/processing.html")
     compile("../blog.html", "./templates/blog_header.html",
             "./templates/blog_footer.html")
-
     print("Success!!!!! Added to Blog page")
+
+
+def addComments(title, file):
+    htmlfile = readFile(file)
+    topHalf = htmlfile[:-554]
+    bottomHalf = htmlfile[-554:]
+    c = open(file, 'w')
+    c.write(topHalf)
+    c.write('data-page-id="'+title+'"\ndata-page-title="'+title+'"')
+    c.write(bottomHalf)
+    c.close()
 
 
 if __name__ == "__main__":

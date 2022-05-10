@@ -16,7 +16,8 @@ h1 {
 
 }
 
-h2 {
+h2,
+h3 {
     font-family: "JetBrains Mono", monospace;
 }
 
@@ -84,9 +85,28 @@ li a {
     padding-right: 2.5%;
 }
 
-img {
-    margin: auto;
-    border: 1px solid #aaa;
+@media screen and (max-width: 600px) {
+    img {
+        max-width: 100%;
+        margin: auto;
+        border: 1px solid #aaa;
+    }
+
+    img.no-border {
+        border: none;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    img {
+        max-width: 45%;
+        margin: auto;
+        border: 1px solid #aaa;
+    }
+
+    img.no-border {
+        border: none;
+    }
 }
 
 #cusdis_thread {

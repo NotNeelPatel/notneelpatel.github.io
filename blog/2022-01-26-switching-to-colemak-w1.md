@@ -1,10 +1,10 @@
 <!---
-title:Using The Colemak Keyboard Layout - Week 1"
+title:Using The Colemak Keyboard Layout - Week 1
 date:Wed, 26 Jan 2022 11:00:00 EST
 description:The start of a journey. While QWERTY works perfectly for me right now, I want to challenge myself to use a different layout to prove to myself that I am capable.
 --->
 
-## Using The Colemak Keyboard Layout - Week 1"
+## Using The Colemak Keyboard Layout - Week 1
 
 ### 2022-01-26
 
