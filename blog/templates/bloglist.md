@@ -1,6 +1,10 @@
 ## Blog
 [RSS Feed](./feed.xml)
 
+2021-12-03 [Package Managers Will Change Your Life](./blog/2021-12-03-package-managers.html)
+
+How do you go about installing programs normally on your computer? Do you use an app store? Do you download the installation file on a website? While both of those methods are definitely viable, I'm going to introduce you to the best way to install apps...
+___
 2022-05-10 [All About Wallpaper Theme Converter](./blog/2022-05-10-wallpaper-theme-converter.html)
 
 An explanation on how it works and cool things I learned while making it...

@@ -1,12 +1,12 @@
 <!---
 title:Package Managers Will Change Your Life
 date:Fri, 03 Dec 2021 22:00:00 EDT
-description:
+description:How do you go about installing programs normally on your computer? Do you use an app store? Do you download the installation file on a website? While both of those methods are definitely viable, I'm going to introduce you to the best way to install apps
 --->
 
 ## Package Managers Will Change Your Life
 
-## 2021-12-03
+### 2021-12-03
 
 How do you go about installing programs normally on your computer? Do you use an app store? Do you download the installation file on a website? While both of those methods are definitely viable, I'm going to introduce you to the best way to install apps: Using a package manager.
 
@@ -63,7 +63,7 @@ choco install <package>
 
 \*Make sure you're running powershell as an admin when using chocolatey
 
-## Why you should care
+### Why you should care
 
 Using winget and chocolatey on Windows really made my experience so much better. Instead of opening chromium and searching for the Spotify, Discord, and other applications, I was able to just open the windows terminal and
 

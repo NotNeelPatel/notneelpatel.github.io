@@ -54,6 +54,12 @@
     "description": "It was some time around July of 2021, when I went to bed and started hearing tapping sounds from the ceiling. I immediately knew what was happening"
   },
   {
+    "title": "Package Managers Will Change Your Life",
+    "date": "2021-12-03",
+    "url": "https://notneelpatel.github.io/blog/2021-12-03-package-managers.html",
+    "description": "How do you go about installing programs normally on your computer? Do you use an app store? Do you download the installation file on a website? While both of those methods are definitely viable, I'm going to introduce you to the best way to install apps"
+  },
+  {
     "title": "DuckDuckGo - Just for Privacy?",
     "date": "2021-12-24",
     "url": "https://notneelpatel.github.io/blog/2021-12-24-duckduckgo-vs-google.html",
@@ -89,10 +95,10 @@
     "url": "https://notneelpatel.github.io/blog/2022-04-26-change-to-new-layout.html",
     "description": "After about four months of working on/off on a new website layout, I've finally gotten to the point where I can share my website again"
   },
-	{
-		"title": "All About Wallpaper Theme Converter",
-		"date": "2022-05-10",
-		"url": "https://notneelpatel.github.io/blog/2022-05-10-wallpaper-theme-converter.html",
-		"description": "An explanation on how it works and cool things I learned while making it"
-	}
+  {
+    "title": "All About Wallpaper Theme Converter",
+    "date": "2022-05-10",
+    "url": "https://notneelpatel.github.io/blog/2022-05-10-wallpaper-theme-converter.html",
+    "description": "An explanation on how it works and cool things I learned while making it"
+  }
 ]

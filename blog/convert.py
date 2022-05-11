@@ -53,8 +53,8 @@ def UpdateSiteLinks(file):
 
     xmltitle = xml_dataString[7:xml_dataString.index("date:")-1]
     xmldate = xml_dataString[len(
-        xmltitle)+12:xml_dataString.index("description:")]
-    xmldescription = xml_dataString[len(xmltitle)+len(xmldate)+24:-1]
+        xmltitle)+13:xml_dataString.index("description:")]
+    xmldescription = xml_dataString[len(xmltitle)+1+len(xmldate)+24:-1]
 
     addComments(xmltitle, file)
 

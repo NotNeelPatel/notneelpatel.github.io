@@ -73,6 +73,12 @@ li a {
     text-decoration: none;
 }
 
+code {
+    border-left: 4px solid #777;
+    background-color: #111;
+    padding: 0.5em;
+}
+
 #navbar {
     margin-left: 2.5%;
     margin-right: 2.5%;

@@ -41,8 +41,27 @@ def convert(file):
         compile(html_file_name, "./templates/header.html",
                 "./templates/footer.html")
         print("Success!!!!! HTML file created")
+        UpdateSiteLinks(html_file_name)
     except:
         print("epic fail!")
+
+
+def UpdateSiteLinks(file):
+    md_file = readFile(file.split(".html")[0] + ".md")
+    xml_dataString = md_file[5:md_file.index("--->")]
+    xmltitle = xml_dataString[7:xml_dataString.index("date:")-1]
+    addComments(xmltitle, file)
+
+
+def addComments(title, file):
+    htmlfile = readFile(file)
+    topHalf = htmlfile[:-554]
+    bottomHalf = htmlfile[-554:]
+    c = open(file, 'w')
+    c.write(topHalf)
+    c.write('data-page-id="'+title+'"\ndata-page-title="'+title+'"')
+    c.write(bottomHalf)
+    c.close()
 
 
 if __name__ == "__main__":

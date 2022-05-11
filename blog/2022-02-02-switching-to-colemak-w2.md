@@ -22,11 +22,11 @@ In terms of my goals I set last week, I achieved well beyond all 3 goals.
 
 <img src="../assets/images/60wpm.png" alt="60 wpm" width="100%" loading="lazy"/>
 
-## Comparison to QWERTY
+### Comparison to QWERTY
 
 I will probably have more to write once I'm even faster, but as of now, I can see that I am much more consistent. On QWERTY, I can be as slow as 50 wpm and as fast as 90 wpm. With Colemak, the variance between my average (45ish), fast (55ish), and slow (30) is much closer. Since commonly used letters are in sensible places and I can basically roll my fingers instead of reaching to the corner as if I'm playing an osu! jump map, I get tired less easily and make less mistakes.
 
-## Goals For Next Week:
+### Goals For Next Week:
 
 -Achieve/beat Nathaniel's 69 wpm
 

@@ -8,11 +8,11 @@ description:The start of a journey. While QWERTY works perfectly for me right no
 
 ### 2022-01-26
 
-## Why?
+### Why?
 
 Why not? While QWERTY works perfectly for me right now, I want to challenge myself to use a different layout to prove to myself that I am capable.
 
-## My Journey Thus Far
+### My Journey Thus Far
 
 I started about a week ago, and to raise the stakes, I challenged my friend Nathaniel to do the same. I stuck with QWERTY for work but whenever I wasn't in a rush, I used colemak. Switching layouts is really easy as I have a simple shortcut for the layouts. This way, if someone needs to use my PC they can use it without going through the pain.
 
@@ -26,7 +26,7 @@ The next day, I tried typing without the layout overlayed, and achieved 14 wpm. 
 
 <img src="../assets/images/41wpm.png" alt="41 wpm" width="100%" loading="lazy"/>
 
-## Goals For Next Week:
+### Goals For Next Week:
 
 -Achieve a new PB of at least 50 wpm
 
