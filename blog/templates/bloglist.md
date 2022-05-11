@@ -1,6 +1,10 @@
 ## Blog
 [RSS Feed](./feed.xml)
 
+2022-05-11 [The Rat Saga, Pt.2](./blog/2022-05-11-rat-saga-2.html)
+
+The long-awaited part 2 where I continue to talk about minor inconveniences...
+___
 2021-12-03 [Package Managers Will Change Your Life](./blog/2021-12-03-package-managers.html)
 
 How do you go about installing programs normally on your computer? Do you use an app store? Do you download the installation file on a website? While both of those methods are definitely viable, I'm going to introduce you to the best way to install apps...
