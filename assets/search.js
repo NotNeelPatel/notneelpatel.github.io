@@ -13,7 +13,7 @@ searchInput.addEventListener("input", e => {
 
 })
 
-fetch('https://notneelpatel.github.io/assets/searchindex.json')
+fetch('./assets/searchindex.json')
     .then(res => res.json())
     .then(data => {
         entries = data.map(entry => {
