@@ -50,7 +50,11 @@ def UpdateSiteLinks(file):
     md_file = readFile(file.split(".html")[0] + ".md")
     xml_dataString = md_file[5:md_file.index("--->")]
     xmltitle = xml_dataString[7:xml_dataString.index("date:")-1]
+    xmldate = xml_dataString[len(
+        xmltitle)+13:xml_dataString.index("description:")]
+    xmldescription = xml_dataString[len(xmltitle)+1+len(xmldate)+24:-1]
     addComments(xmltitle, file)
+    metadata(xmltitle, xmldescription, file)
 
 
 def addComments(title, file):
@@ -62,6 +66,19 @@ def addComments(title, file):
     c.write('data-page-id="'+title+'"\ndata-page-title="'+title+'"')
     c.write(bottomHalf)
     c.close()
+
+
+def metadata(title, description, file):
+    title = title + " - Neel Patel"
+    htmlfile = readFile(file)
+    topHalf = htmlfile[:641]
+    bottomHalf = htmlfile[641:]
+    m = open(file, 'w')
+    m.write(topHalf)
+    m.write('<meta property="og:title" content="'+title+'"/>\n<meta property="og:description" content="' +
+            description+'"/>\n<meta property="og:url" content="notneelpatel.github.io/blog/'+file+'"/>')
+    m.write(bottomHalf)
+    m.close()
 
 
 if __name__ == "__main__":
