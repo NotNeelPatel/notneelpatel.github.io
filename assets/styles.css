@@ -46,6 +46,10 @@ hr.main {
     height: 4px;
 }
 
+hr.small {
+    max-width: 90%;
+}
+
 header {
     margin-left: 5%;
     margin-right: 5%;
@@ -65,7 +69,6 @@ ul {
 
 li {
     display: inline-block;
-
 }
 
 li a {

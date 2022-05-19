@@ -58,15 +58,7 @@ def UpdateSiteLinks(file):
 
     addComments(xmltitle, file)
     metadata(xmltitle, xmldescription, file)
-
-    # Write into the XML file
-    old_xml = readFile("../feed.xml")
-    old_xml = old_xml[:-18]
-    x = open("../feed.xml", 'w')
-    x.write(old_xml)
-    x.write("\n\t\t<item>\n\t\t\t<title>"+xmltitle+"\n\t\t\t</title>\n\t\t\t<pubDate>"+xmldate+"</pubDate>\n\t\t\t<link>https://notneelpatel.github.io/blog/"+file +
-            "</link>\n\t\t\t<guid>https://notneelpatel.github.io/blog/"+file+"</guid>\n\t\t\t<description>"+xmldescription+"\n\t\t\t</description>\n\t\t</item>\n\t</channel>\n</rss>")
-    x.close()
+    xml(xmltitle, xmldate, xmldescription)
 
     # Use the title of the md file and RSS information to create link titles
     date = file[:10]
@@ -82,7 +74,7 @@ def UpdateSiteLinks(file):
             '",\n\t\t"url": "https://notneelpatel.github.io/blog/'+file+'",\n\t\t"description": "'+xmldescription+'"\n\t}\n]')
     j.close()
 
-    # Write into Blog.html
+    # Write into blog.html
     previous_content = readFile("./templates/bloglist.md")
     previous_content = previous_content[31:]
     flist = open("./templates/bloglist.md", 'w')
@@ -94,6 +86,12 @@ def UpdateSiteLinks(file):
     compile("../blog.html", "./templates/blog_header.html",
             "./templates/blog_footer.html")
     print("Success!!!!! Added to Blog page")
+
+    # Write into index.html
+    l = open("latest.html", 'w')
+    l.write('<!DOCTYPE html>\n<meta http-equiv="Refresh" content="0; url='+"'" +
+            file+"'"+'" />\n</html>')
+    l.close()
 
 
 def addComments(title, file):
@@ -118,6 +116,17 @@ def metadata(title, description, file):
             description+'"/>\n<meta property="og:url" content="notneelpatel.github.io/blog/'+file+'"/>')
     m.write(bottomHalf)
     m.close()
+
+
+def xml(xmltitle, xmldate, xmldescription):
+    # Write into the XML file
+    old_xml = readFile("../feed.xml")
+    old_xml = old_xml[:-18]
+    x = open("../feed.xml", 'w')
+    x.write(old_xml)
+    x.write("\n\t\t<item>\n\t\t\t<title>"+xmltitle+"\n\t\t\t</title>\n\t\t\t<pubDate>"+xmldate+"</pubDate>\n\t\t\t<link>https://notneelpatel.github.io/blog/"+file +
+            "</link>\n\t\t\t<guid>https://notneelpatel.github.io/blog/"+file+"</guid>\n\t\t\t<description>"+xmldescription+"\n\t\t\t</description>\n\t\t</item>\n\t</channel>\n</rss>")
+    x.close()
 
 
 if __name__ == "__main__":

@@ -1,6 +1,10 @@
 ## Blog
 [RSS Feed](./feed.xml)
 
+2022-05-18 [I Love Mr. Morale and the Big Steppers](./blog/2022-05-18-i-love-kendricks-new-album.html)
+
+Ramblings of an already critically-acclaimed album...
+___
 2022-05-11 [The Rat Saga, Pt.2](./blog/2022-05-11-rat-saga-2.html)
 
 The long-awaited part 2 where I continue to talk about minor inconveniences...

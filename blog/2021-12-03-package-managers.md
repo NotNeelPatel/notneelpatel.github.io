@@ -20,6 +20,9 @@ If you've programmed before, you've probably used some language-based package ma
 
 ```
 pip install <package>
+```
+
+```
 npm install <package>
 ```
 
@@ -45,6 +48,9 @@ Apt:
 
 ```
 sudo apt update
+```
+
+```
 sudo apt upgrade
 ```
 
@@ -58,6 +64,9 @@ Installing packages like this is also possible using powershell and winget on Wi
 
 ```
 winget install <author.package>
+```
+
+```
 choco install <package>
 ```
 
