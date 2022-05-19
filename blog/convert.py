@@ -58,7 +58,7 @@ def UpdateSiteLinks(file):
 
     addComments(xmltitle, file)
     metadata(xmltitle, xmldescription, file)
-    xml(xmltitle, xmldate, xmldescription)
+    xml(file, xmltitle, xmldate, xmldescription)
 
     # Use the title of the md file and RSS information to create link titles
     date = file[:10]
@@ -118,7 +118,7 @@ def metadata(title, description, file):
     m.close()
 
 
-def xml(xmltitle, xmldate, xmldescription):
+def xml(file, xmltitle, xmldate, xmldescription):
     # Write into the XML file
     old_xml = readFile("../feed.xml")
     old_xml = old_xml[:-18]
