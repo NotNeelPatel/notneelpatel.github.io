@@ -9,10 +9,6 @@ ___
 
 The long-awaited part 2 where I continue to talk about minor inconveniences...
 ___
-2021-12-03 [Package Managers Will Change Your Life](./blog/2021-12-03-package-managers.html)
-
-How do you go about installing programs normally on your computer? Do you use an app store? Do you download the installation file on a website? While both of those methods are definitely viable, I'm going to introduce you to the best way to install apps...
-___
 2022-05-10 [All About Wallpaper Theme Converter](./blog/2022-05-10-wallpaper-theme-converter.html)
 
 An explanation on how it works and cool things I learned while making it...
@@ -41,6 +37,10 @@ ___
 
 Ever since Google dominated the search engine market share (they even own the 2nd largest search engine, YouTube), it seems like it's the obvious choice. However...
 ___
+2021-12-03 [Package Managers Will Change Your Life](./blog/2021-12-03-package-managers.html)
+
+How do you go about installing programs normally on your computer? Do you use an app store? Do you download the installation file on a website? While both of those methods are definitely viable, I'm going to introduce you to the best way to install apps...
+___
 2021-11-02 [The Rat Saga, Pt.1](./blog/2021-11-02-rat-saga-1.html)
 
 It was some time around July of 2021, when I went to bed and started hearing tapping sounds from the ceiling. I immediately knew what was happening...
@@ -54,7 +54,6 @@ ___
 I've used Windows from XP all the way up to 10. For roughly 15 years of my life, I've been in the DOS ecosystem. While Windows 10 isn't terrible, Linux is just way more customizeable and really great if you actually care about how your computer hardware and software works....
 ___
 2021-10-24 [First Post](./blog/2021-10-24-first-post.html)
-
 
 Welcome to my first blog post. I made this website in pursuit of improving my general skills as a programmer, engineer, typist, etc. Blogs also allow me to document and share my thoughts and experiences with the world, and maybe this will lead to greater things in the future....
 ___
