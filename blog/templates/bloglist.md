@@ -5,6 +5,10 @@
 
 Ramblings of an already critically-acclaimed album...
 ___
+2022-05-15 [I Hate New Smartphones](./blog/2022-05-15-smartphone-rant.html)
+
+A criticism of the smartphone market after 10 years and what I would change...
+___
 2022-05-11 [The Rat Saga, Pt.2](./blog/2022-05-11-rat-saga-2.html)
 
 The long-awaited part 2 where I continue to talk about minor inconveniences...
