@@ -97,14 +97,8 @@ body {
     font-size: 18px;
 }
 
-ul {
-    list-style-type: none;
-    padding-right: 2.5%;
-    padding-left: 2.5%
-}
-
 li {
-    display: inline-block;
+    display: inline;
 }
 
 li a {
@@ -119,8 +113,11 @@ code {
 }
 
 #navbar {
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    background-image: url("images/home/bg.gif");
+    padding: 0 auto;
+    margin-left: 5%;
+    margin-right: 5%;
+
 }
 
 #flex {
@@ -128,14 +125,16 @@ code {
 }
 
 #main-container {
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+    background-color: #000;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
 #cusdis_thread {
+    background-color: #000;
     margin-left: 2.5%;
     margin-right: 2.5%;
     padding-left: 2.5%;
@@ -153,12 +152,10 @@ footer a {
 }
 
 #sidebar {
-    /*background-color: #3265f1;*/
     order: 3;
     padding: 20px;
     margin: left;
 }
-
 
 main {
     flex: 1;
