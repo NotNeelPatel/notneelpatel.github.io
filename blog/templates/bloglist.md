@@ -1,6 +1,10 @@
 ## Blog
 [RSS Feed](./feed.xml)
 
+2022-08-29 [I Deleted Social Media](./blog/2022-08-29-delete-social-media.html)
+
+Talking about the effects of social media, why I stopped, and the solutions to this problem....
+___
 2022-05-18 [I Love Mr. Morale and the Big Steppers](./blog/2022-05-18-i-love-kendricks-new-album.html)
 
 Ramblings of an already critically-acclaimed album...

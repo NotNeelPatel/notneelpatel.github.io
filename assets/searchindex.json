@@ -108,15 +108,21 @@
     "description": "The long-awaited part 2 where I continue to talk about minor inconveniences"
   },
 	{
-		"title": "I Love Mr. Morale and the Big Steppers",
-		"date": "2022-05-18",
-		"url": "https://notneelpatel.github.io/blog/2022-05-18-i-love-kendricks-new-album.html",
-		"description": "Ramblings of an already critically-acclaimed album"
+    "title": "I Hate New Smartphones",
+    "date": "2022-05-15",
+    "url": "https://notneelpatel.github.io/blog/2022-05-15-smartphone-rant.html",
+    "description": "A criticism of the smartphone market after 10 years and what I would change"
 },
 	{
-		"title": "I Hate New Smartphones",
-		"date": "2022-05-15",
-		"url": "https://notneelpatel.github.io/blog/2022-05-15-smartphone-rant.html",
-		"description": "A criticism of the smartphone market after 10 years and what I would change"
+    "title": "I Love Mr. Morale and the Big Steppers",
+    "date": "2022-05-18",
+    "url": "https://notneelpatel.github.io/blog/2022-05-18-i-love-kendricks-new-album.html",
+    "description": "Ramblings of an already critically-acclaimed album"
+	},
+	{
+		"title": "I Deleted Social Media",
+		"date": "2022-08-29",
+		"url": "https://notneelpatel.github.io/blog/2022-08-29-delete-social-media.html",
+		"description": "Talking about the effects of social media, why I stopped, and the solutions to this problem."
 	}
 ]
