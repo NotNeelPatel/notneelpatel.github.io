@@ -8,7 +8,7 @@ description:A criticism of the smartphone market after 10 years and what I would
 
 ### 2022-05-15
 
-Phones have basically looked to same for the last 10 years. They are still the same glass, metal, and plastic slabs that get slightly more screen real estate, more processing power, and a little larger and thinner every year. Despite this, I see smartphone manufacturers do things that seem quite illogical.
+Phones really haven't changed all too much in the last 6 or so years. They are still the same glass, metal, and plastic slabs that get slightly more screen real estate, more processing power, and a little larger and thinner every year. Despite this, I see smartphone manufacturers do things that seem quite illogical.
 
 ### The Apple Effect
 
@@ -34,19 +34,19 @@ Apple dominates the smartphone market, and it seems that every Android phone com
 
 ---
 
-While Apple has definitely taken inspiration from Android (many software features, fingerprint scanner, multiple cameras, removing the physical home button, wireless charging, etc.), the effect Apple has comparatively is more significant. These changes that Apple has influenced have negatively affected my smartphone experience to be honest.
+While Apple has definitely taken inspiration from Android (many software features, fingerprint scanner, multiple cameras, removing the physical home button, wireless charging, etc.), Apple's effect on Android is extremely significant. These changes that Apple has influenced have negatively affected my smartphone experience.
 
 When Apple removed the headphone jack, it began the wireless earbud revolution, which is more profitable than the smartphone industry at the moment, hence why every smartphone company has their own. I don't hate wireless earbuds, but removing a port that's still found in most other technology (including Apple's computers) makes it a hassle for anyone who has wired earbuds.
 
 I honestly don't mind the notch as much as other people may. In fact, I think Android has done it better, specifically Samsung with their hole-punch design which maximizes screen real estate without looking too ugly.
 
-Finally, with the charging brick, Apple claims they're doing it for the environment, however I find it to be quite convenient when they did it since the cable that comes with phones after the iPhone 11 are lightning to USB-C, unlike the previous lightning to USB-A. People who haven't upgraded their phone since the iPhone 11 are forced to get a new charging brick since the old ones won't work.
+Finally, with the charging brick, Apple claims they're doing it for the environment, however I find it to be quite convenient when they did it since the cable that comes with phones after the iPhone 11 are lightning to USB-C, unlike the previous lightning to USB-A. People who haven't upgraded their phone since the iPhone 11 are forced to get a new charging brick since the old ones won't work with a lightning to USB-C connector.
 
 ### Android Isn't Safe Either
 
 Apple has made some interesting decisions, but at least I can clearly tell they are just trying to make the most money possible. Some Android manufacturers make awful decisions that just make no sense whatsoever.
 
-My biggest pet peeve that exists on phones are the "waterfall edges", where the screen wraps to the edges. Samsung popularized it with their Galaxy S6 Edge, and ever since, all their flagships have some kind of waterfall edge to an extent. I hate these kinds of phones for two reasons: it makes it impossible/really difficult to apply a screen protector to, and it is very prone to accidental edges. Not to mention that since more of the phone is "screen", it is more likely to crack if it lands on its edge. Even though they've been on phones for 7 years, I still think that it's a gimmick and provides very little value.
+My biggest pet peeve that exists on phones are the "waterfall edges", where the screen wraps to the edges. Samsung popularized it with their Galaxy S6 Edge, and ever since, all their flagships have some kind of waterfall edge to an extent. I hate these kinds of phones for two reasons: it makes it impossible/really difficult to apply a screen protector properly, and it is very prone to accidental edge presses. Not to mention that since more of the phone is "screen", it is more likely to crack if it lands on its edge. Even though they've been on phones for 7 years, I still think that it's a gimmick and provides very little value.
 
 Another major problem that exists in Android phones is bloatware. Every Android manufacturer makes it their duty to reinvent the wheel and make apps that do not improve the experience whatsoever.
 
@@ -74,7 +74,7 @@ I hate curved screens. Flat screens are significantly better.
 90/120Hz refresh rate
 ```
 
-Once you get used to a higher refresh rate, you can't go back. It makes everything look much better, especially animations and scrolling.
+Once you get used to a higher refresh rate, you can't go back. It makes everything look much better, especially for animations and scrolling.
 
 ```
 OLED
@@ -90,7 +90,7 @@ Personal preference, 6in displays fit my hand nicely.
 
 #### Camera
 
-To be honest, I don't really care about cameras all that much. I think all that really matters is a decent back camera sensor with an ultrawide and a selfie camera that isn't extremely terrible.
+To be honest, I don't really care about cameras all that much. I think all that really matters is a decent back camera sensor with an ultrawide sensor, as wella as a selfie camera that isn't extremely terrible.
 
 #### Battery
 

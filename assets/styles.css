@@ -25,6 +25,8 @@
     img.no-border {
         border: none;
     }
+
+
 }
 
 @media screen and (min-width: 600px) {
@@ -36,6 +38,15 @@
 
     img.no-border {
         border: none;
+    }
+
+    body {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    audio {
+        width: 500px;
     }
 }
 
@@ -54,6 +65,7 @@ h3,
 h4,
 h5 {
     font-family: "JetBrains Mono", monospace;
+    line-height: 25pt;
 }
 
 a {
@@ -95,7 +107,8 @@ body {
     font-family: "Inconsolata", monospace;
     background-color: #000;
     color: #fff;
-    font-size: 18px;
+    font-size: 15pt;
+    line-height: 18pt;
 }
 
 li {
@@ -136,7 +149,7 @@ code {
 
 
 #cusdis_thread {
-    background-color: #000;
+
     margin-left: 5%;
     margin-right: 5%;
 

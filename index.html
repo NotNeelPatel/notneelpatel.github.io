@@ -11,11 +11,6 @@
     <meta property="og:image" content="./assets/favicon.png" />
     <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script
-      data-goatcounter="https://notneelpatel.goatcounter.com/count"
-      async
-      src="//gc.zgo.at/count.js"
-    ></script>
   </head>
   <header>
     <a class="white" href="/index.html"><h1>Not Neel Patel</h1></a>
@@ -57,17 +52,14 @@
             inspiration of some kind. Enjoy your stay!
           </p>
           <p>
-            <a href="./blog/latest.html"> See my latest blog! </a>
+            <a href="./blog/latest.html"> Read my latest blog! </a>
           </p>
           <p>
             <a href="https://notneelpatel.github.io/WallpaperThemeConverter/">
               Check out my latest project!
             </a>
           </p>
-          <p>
-            Interested in web analytics?
-            <a href="https://notneelpatel.goatcounter.com/">Here are mine</a>
-          </p>
+
           <hr />
           <div>
             <a target="_blank" href="https://cyber.dabamos.de/88x31/">
@@ -104,7 +96,7 @@
             </a>
             <a target="_blank" href="https://notneelpatel.github.io/feed.xml">
               <img
-                src="https://cyber.dabamos.de/88x31/valid-rss.gif"
+                src="https://cyber.dabamos.de/88x31/rss-button.gif"
                 alt="link"
                 width="88"
                 height="31"
@@ -237,12 +229,12 @@
           ></iframe>
           <div id="images"></div>
           <script>
-            let len = 49;
+            let len = 50;
             let rand = 1;
             let check = [0, 0, 0];
             for (let i = 0; i < 3; i++) {
               rand = Math.random();
-              rand = Math.floor(rand * len);
+              rand = Math.floor(rand * (len + 1));
               let image = rand;
               if (!check.includes(rand)) {
                 check[i] = rand;

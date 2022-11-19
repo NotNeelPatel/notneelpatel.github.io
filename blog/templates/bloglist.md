@@ -1,6 +1,10 @@
 ## Blog
 [RSS Feed](./feed.xml)
 
+2022-11-18 [Making Super Mario 64 Remixes of Songs](./blog/2022-11-18-midi-remix.html)
+
+Who knew making remixes could be so easy...
+___
 2022-08-29 [I Deleted Social Media](./blog/2022-08-29-delete-social-media.html)
 
 Talking about the effects of social media, why I stopped, and the solutions to this problem....

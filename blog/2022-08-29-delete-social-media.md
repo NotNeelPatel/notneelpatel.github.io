@@ -6,7 +6,7 @@ description:Talking about the effects of social media, why I stopped, and the so
 
 ## I Deleted Social Media
 
-### 2022-05-18
+### 2022-08-29
 
 About a month ago, I deleted most of the social media apps off of my phone and it may have changed my life.
 
@@ -20,7 +20,7 @@ My reasons differ slightly for each app but they all have the same underlying "p
 
 The algorithms in these apps are extremely advanced, especially since they've had a decade to mature. These days, it's so easy to just keep on scrolling through the never-ending stream of content that's tailored just for you. The algorithm can work in different ways. Oftentimes, they will be your personal yes man and cater to your biases and may even enable it further. This leads to echo chambers and radicalization. Twitter doesn't always fit this mould and will sometimes throw a curveball at you as you read the most idiotic thing a human could possibly write within the confines of 280 characters.
 
-I remember sifting through boring posts until finding the diamond in the rough once every minute or so, signaling a rush of dopamine, and making me want more. I would continue this cycle over and over until I would snap out of it. This sounds horrible, but that's the algorithm working _properly_, which is honestly the scariest part.
+I remember sifting through boring posts until finding the diamond in the rough once every minute or so, signalling a rush of dopamine, and making me want more. I would continue this cycle over and over until I would snap out of it. This sounds horrible, but that's the algorithm working _properly_, which is honestly the scariest part.
 
 There are many other reasons as to why social media is bad for you. Besides the ones that were probably mentioned in those school assemblies, I think the most underrated reason is that it's an overload of information. The human brain has limits on how much it can take in. The internet has an endless flow of information, and social media is the vessel that can easily carry that information to their users. Another major reason to slow down social media usage is that there are many security/privacy violations as they are basically data mines.
 
