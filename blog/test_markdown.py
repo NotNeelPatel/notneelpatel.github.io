@@ -59,8 +59,8 @@ def UpdateSiteLinks(file):
 
 def addComments(title, file):
     htmlfile = readFile(file)
-    topHalf = htmlfile[:-554]
-    bottomHalf = htmlfile[-554:]
+    topHalf = htmlfile[:-543]
+    bottomHalf = htmlfile[-543:]
     c = open(file, 'w')
     c.write(topHalf)
     c.write('data-page-id="'+title+'"\ndata-page-title="'+title+'"')
