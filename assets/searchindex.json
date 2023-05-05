@@ -24,10 +24,10 @@
     "description": "Search"
   },
   {
-    "title": "Projects",
+    "title": "Portfolio",
     "date": "2022-05-06",
-    "url": "https://notneelpatel.github.io/projects",
-    "description": "Projects"
+    "url": "https://notneelpatel.github.io/portfolio",
+    "description": "Portfolio"
   },
   {
     "title": "Wallpaper Theme Converter",
@@ -130,5 +130,11 @@
 		"date": "2022-11-18",
 		"url": "https://notneelpatel.github.io/blog/2022-11-18-midi-remix.html",
 		"description": "Who knew making remixes could be so easy"
+},
+	{
+		"title": "Using The Colemak Keyboard Layout - 1 Year",
+		"date": "2023-01-19",
+		"url": "https://notneelpatel.github.io/blog/2023-01-19-switching-to-colemak-y1.html",
+		"description": "A follow-up to my Colemak challenge from a year ago"
 	}
 ]
