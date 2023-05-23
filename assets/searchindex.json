@@ -25,9 +25,33 @@
   },
   {
     "title": "Portfolio",
-    "date": "2022-05-06",
+    "date": "2023-01-01",
     "url": "https://notneelpatel.github.io/portfolio",
     "description": "Portfolio"
+  },
+  {
+    "title": "Networking Card",
+    "date": "2023-03-27",
+    "url": "https://notneelpatel.github.io/networking-card",
+    "description": " My virtual business/networking card."
+  },
+  {
+    "title": "Albums That I Enjoy",
+    "date": "2023-05-23",
+    "url": "https://notneelpatel.github.io/albums",
+    "description": "A webpage that will allow you to discover more music and my music taste."
+  },
+  {
+    "title": "Cat-Hour",
+    "date": "2023-05-0",
+    "url": "https://notneelpatel.github.io/WallpaperThemeConverter",
+    "description": "Converts the palettes of images to themes such as Gruvbox, Nord, and Solarized."
+  },
+  {
+    "title": "CuGuessr",
+    "date": "2023-02-01",
+    "url": "https://notneelpatel.github.io/cuguessr",
+    "description": "Guess the locations of buildings on Carleton University's campus."
   },
   {
     "title": "Wallpaper Theme Converter",

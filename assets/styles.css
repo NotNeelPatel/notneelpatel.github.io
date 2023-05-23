@@ -21,9 +21,6 @@
         margin: auto;
         border: 1px solid #aaa;
     }
-
-
-
 }
 
 @media screen and (min-width: 600px) {
@@ -144,6 +141,10 @@ code {
     padding-right: 10px;
 }
 
+#project-display {
+    place-items: center;
+}
+
 
 #cusdis_thread {
 
@@ -189,6 +190,7 @@ input {
     border-left-style: hidden;
     border-right-style: hidden;
     border-bottom-style: solid 1px #aaa;
+    font-family: "Inconsolata", monospace;
 }
 
 .entries {
