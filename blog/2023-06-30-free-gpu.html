@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Neel Patel</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../assets/styles.css" />
+    <meta property="og:site_name" content="Neel Patel" />
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#242424" data-react-helmet="true" />
+    <meta property="og:image" content="../assets/favicon.png" />
+    <meta property="og:image" content="../assets/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png" /><meta property="og:title" content="Free GPU: Too Good to be True - Neel Patel"/>
+<meta property="og:description" content="My attempt in fixing a free GPU"/>
+<meta property="og:url" content="notneelpatel.github.io/blog/2023-06-30-free-gpu.html"/>
+
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      href="/feed.xml"
+      title="RSS"
+    />
+  </head>
+  <header>
+    <a class="white" href="../index.html"><h1>Not Neel Patel</h1></a>
+  </header>
+
+  <body>
+    <hr class="main" />
+    <div id="navbar">
+      <li><a href="../index.html">Home</a></li>
+      <li><a> | </a></li>
+      <li><a href="../blog.html">Blog</a></li>
+      <li><a> | </a></li>
+      <li><a href="../projects.html">Projects</a></li>
+      <li><a> | </a></li>
+      <li><a href="../links.html">Links</a></li>
+      <li><a> | </a></li>
+      <li><a href="../search.html">Search</a></li>
+    </div>
+    <hr class="main" />
+    <div id="main-container">
+<!---
+title:Free GPU: Too Good to be True
+date:Thu, 30 June 2023 10:00:00 EST
+description:My attempt in fixing a free GPU
+--->
+
+<h2>Free GPU: Too Good to be True</h2>
+<h3>2023-06-30</h3>
+<p>About a month ago, my dad and I went to drop off some e-waste at the local school. As I'm always curious, I took a bit of time looking through the dumpster in search of anything cool. In the corner of my eye, I spotted a black and red box and immediately knew what it was. I saw the MSI dragon branding and I got excited. It was an MSI Radeon R9 390. </p>
+<p><img alt="MSI R9 390 Gaming 8G" src="../assets/images/r9_390.jpg" /></p>
+<p>I was excited for a few reasons. My current GPU, the Nvidia Geforce GT 730 (released 2014), is even older than the R9 390 (released 2015), and was considered a low-end card even back then. The 390 on the other hand, was considered more high-end, being somewhere in between of the performance of Nvidia's GTX 980 and 980 Ti. Nvidia cards on Linux can be a hit or miss; their drivers are proprietary and the the open-source nouveau drivers leave much to be desired. AMD's open-source drivers are much better for that reason. On top of all that, this particular 390 boasts 8GB of VRAM, which means it has the potential to run modern games that depend on such large RAM sizes. Working with AI can also require a beefier GPU and lots of VRAM, not to mention other applications like video editing and the such. All these positives right at my fingertips because someone thought this GPU was worthy of being e-waste.</p>
+<p>Once I got home, I tried testing the GPU. My sister's PC had a powerful enough power supply and the right PCIe power connectors for it to work, and to my surprise, the R9 390 actually displayed the window. It wasn't pretty; the resolution was fixed to 800x600 stretched and there were no drivers installed so Windows must've been using safe graphics. It looked promising though. I bought a cheap 700W power supply second-hand to test the GPU on my own PC.</p>
+<video controls="true" allowfullscreen="true">
+    <source src="../assets/images/r9_390_test.mp4" type="video/mp4">
+</video>
+
+<p>After installing amdgpu drivers and messing around with a lot of settings, I was unsuccessful installing it on Debian (I use Debian 11 since it's still on Linux kernel 5.10, which supports Nvidia's 470 drivers for the GT 730). I thought perhaps there were some distros that could work out of the box with the R9 390. The <a href="https://wiki.archlinux.org/title/AMDGPU#R9_390_series_poor_performance_and/or_instability">Arch Linux Wiki</a> mentions fixes that can be applied specifically to R9 390s, so I thought maybe some Arch-based distros had a fix. I tried Manjaro, EndeavorOS, and finally with Fedora. Fedora seemed to be the most functional distro; even my wifi adapter worked instantly. So I tried troubleshooting with Fedora for a few days.</p>
+<p>I changed every kernel parameter, eventually settling with </p>
+<p><code>radeon.cik_support=0 amdgpu.cik_support=1 amdgpu.dc=1 amdgpu.dpm=1</code></p>
+<p>The fans would not spin for some reason though. The drivers for sure worked but the card would get too hot and would black screen, with the system still on. After letting the GPU cool for a few minutes, I could try again. I had to find a program that would allow me to blast the fans at full speed in the meantime. Note: You should just use <a href="https://gitlab.com/corectrl/corectrl">CoreCtrl</a> if you need a fan curve that is functional.</p>
+<p>With the fans on blast, I could actually use the system for more than a few seconds. Success at last! I installed CS:GO just to test out the GPU and I was elated when I was able to run the game at 1080p at more than 100fps on high settings! As I played deathmatch, everything was going smoothly, until disaster struck once again. The GPU black screened again. After trying a few more times, I would get the same issue. Even with the fans on full speed, the GPU would still get too hot.</p>
+<p>I was sure that the GPU was getting too hot since I could physically feel it getting hot, but also because after crashing, I wouldn't be able to turn on my computer and get into Fedora, but if I waited 20-30 minutes, I would be able to use the computer. If I don't play a game or push the GPU too hard, I would be able to use it with no problems. </p>
+<p>I ordered some thermal paste and thermal pads, replacing as much as I could. This was my first time taking apart a GPU and replacing thermal pads and thermal paste. As I put everything back together, I held my breath as I turned my PC on. I sighed in relief as I saw the screen output. But did it fix the problem? I booted up CS:GO and played a deathmatch. For the first time, I was able to play an entire deathmatch (10 minutes) without black screening. Success! I played another 2 deathmatches and it was still going strong!</p>
+<p>To celebrate I tried loading into Ancient, the hardest map to run in CS:GO's competitive map pool. As the map was loading though, I saw the same familiar black screen of death.</p>
+<p>To be honest, I don't know what the problem is now. Maybe there are some parts that are still not getting enough cooling. My computer case is very much meant for low-power parts so it doesn't have the best cooling. But even still, I removed as many panels as I could when testing and more importantly, I saw the temperatures of the GPU were supposedly at most 50°C. The GPU should be able to handle much more than that though. My best guess is that some temperature controller/sensor is broken and/or the GPU is suffocating. </p>
+<p>After lots of effort on my end, I decided to stop working on this GPU. While it's definitely better than my GT 730, it simply does not work, and that's the minimum requirement for me. It's not the ending any of us wanted, but that's just how it is for right now.. While I didn't get a sick GPU upgrade for free, I definitely learned a lot of things:</p>
+<p>1.AMD GPU Drivers aren't bulletproof; sometimes there is some massaging required to get them to perform properly.</p>
+<p>2.UNIX has this philosophy that "everything is a file", including your hardware (on Linux that would be your /dev folder). You can find lots of information about your hardware by reading through these files.</p>
+<p>3.The importance of Reddit (I have lots of gripes with Reddit now; their new API changes forced me to shut down <a href="https://notneelpatel.github.io/cat-hour">CAT / HOUR</a>)</p>
+<p>4.A lot of information about GPUs</p>
+<p>5.How to apply thermal paste and thermal pads properly</p>
+<p>6.If it's too good to be true, then it probably is.</p>    </div>
+  </body>
+  <footer>
+      <div
+      id="cusdis_thread"
+      data-theme="dark"
+      data-host="https://cusdis.com"
+      data-app-id="30c15547-b7a9-4953-93a9-4a3data-page-id="Free GPU: Too Good to be True"
+data-page-title="Free GPU: Too Good to be True"bc586e558"
+
+
+    ></div>
+    <script async defer src="./templates/cusdis.es.js"></script>
+    <hr class="main" />
+    <ul>
+      <a href="../index.html">Home</a>
+      <a>|</a>
+      <a href="../blog.html">Blog</a>
+      <a>|</a>
+      <a href="../feed.xml">RSS</a>
+      <a>|</a>
+      <a href="https://github.com/NotNeelPatel">GitHub</a>
+      <a>|</a>
+      <a href="https://www.linkedin.com/in/notneelpatel/">Linkedin</a>
+      <a>|</a>
+      <a href="">YouTube (Coming soon!)</a>
+    </ul>
+    <a href="#top">↑ Top of page ↑</a>
+  </footer>
+</html>

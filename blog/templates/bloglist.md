@@ -1,6 +1,10 @@
 ## Blog
 [RSS Feed](./feed.xml)
 
+2023-06-30 [Free GPU: Too Good to be True](./blog/2023-06-30-free-gpu.html)
+
+My attempt in fixing a free GPU...
+___
 2023-01-19 [Using The Colemak Keyboard Layout - 1 Year](./blog/2023-01-19-switching-to-colemak-y1.html)
 
 A follow-up to my Colemak challenge from a year ago...
