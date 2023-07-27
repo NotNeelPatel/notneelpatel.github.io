@@ -19,7 +19,7 @@ fetch(json_file)
                 image_node.loading = "lazy";
                 image_node.src = dir + rand + ".jpg";
                 image_node.style =
-                "min-width:320px; display: flex; flex-wrap:wrap; justify-content: space-between; margin-top:20px";
+                "display: flex; flex-wrap:wrap; justify-content: space-between; margin-top:20px";
                 document.getElementById("images").appendChild(image_node);
             } else {
                 i -= 1;

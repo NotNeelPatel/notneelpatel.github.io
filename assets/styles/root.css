@@ -27,6 +27,7 @@
 /*--- Global Styles ---*/
 /* Header */
 header {
+    width: 100%;
     text-align: center;
 }
 
@@ -52,13 +53,6 @@ body {
     line-height: 18pt;
 }
 
-#main-container {
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 /* Footer */
 footer {
     margin-top: 0.5em;
@@ -77,9 +71,8 @@ h1 {
     letter-spacing: 5px;
     word-spacing: 7px;
     font-weight: 100;
-    display: inline-table;
-    color: var(--accentprimary)
-
+    color: var(--accentprimary);
+    font-size: 2em;
 }
 
 h2,
@@ -111,7 +104,10 @@ code {
 }
 
 hr {
+    border: none;
+    border-top: 2px solid var(--accentprimary);
     color: var(--accentprimary);
+    height: 5px;
 }
 
 hr.main {
@@ -121,6 +117,18 @@ hr.main {
     border-right: 1px solid var(--accentprimary);
     border-bottom: 1px solid var(--accentprimary);
     border-left: 1px solid var(--accentprimary);
+    overflow: visible;
+    text-align: center;
+}
+
+hr.main:after {
+    background: var(--backgroundprimary);
+    content: '//';
+    color: var(--linkcolour);
+    padding: 0 4px;
+    margin: 0 50px;
+    position: relative;
+    top: -9px;
 }
 
 /* Files */
@@ -139,6 +147,11 @@ audio{
 }
 
 @media only screen and (max-width:800px) {
+
+    h1{
+        font-size: x-large;
+    }
+
     img {
         max-width: 100%;
         margin: auto;
@@ -152,9 +165,18 @@ audio{
         border: 2px solid var(--textlighter);
         border-radius: 15px;
     }
+    
+    #navbar{
+        max-width: fit-content;
+    }
+
+    #main-container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
     img {
         max-width: 600px;
         margin: auto;
@@ -168,13 +190,20 @@ audio{
         border-radius: 15px;
     }
 
+    audio {
+        width: 500px;
+    }
+
     body {
         margin-left: 15%;
         margin-right: 15%;
     }
 
-    audio {
-        width: 500px;
+    #main-container {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
