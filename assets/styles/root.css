@@ -1,0 +1,183 @@
+/*--- Imports ---*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,100&display=swap');
+@import url('https://fonts.cdnfonts.com/css/fantasque-sans-mono');
+
+/*--- Colour Scheme ---*/
+:root{
+    --backgroundprimary: #f2e5bc;
+    --backgroundsecondary: #ebdbb2;
+    --backgroundtertiary: #d5c4a1;
+    --accentprimary: #427b58;
+    --accentsecondary: #f44336;
+    
+    --textlighter: #7c6f64;
+    --textlight: #665c54;
+    --textdark: #504945;
+    --textdarker: #282828;
+
+    --linkcolour: #458588;
+
+    --primaryfont: "Fantasque Sans Mono", serif;
+    --secondaryfont: "Noto Serif", serif;
+    --italicizedfont: "Noto Serif", sans-serif;
+
+}
+
+/*--- Global Styles ---*/
+/* Header */
+header {
+    text-align: center;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar li{
+    display: inline;
+}
+
+.navbar a {
+    font-style: italic;
+    text-decoration: none;
+}
+
+/* Body */
+body {
+    background-color: var(--backgroundprimary);
+    font-family: var(--primaryfont);
+    color: var(--textdarker);
+    font-size: 15pt;
+    line-height: 18pt;
+}
+
+#main-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Footer */
+footer {
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+footer a {
+    color: var(--textlighter)
+}
+
+/* Text */
+h1 {
+    font-family: var(--italicizedfont), serif;
+    font-style: italic;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    font-weight: 100;
+    display: inline-table;
+    color: var(--accentprimary)
+
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--secondaryfont);
+    line-height: 25pt;
+    color: var(--textlight);
+}
+
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: var(--linkcolour)
+}
+
+a:hover {
+    color: var(--textlighter);
+}
+
+/* Individual Elements */
+code {
+    border-left: 4px solid var(--accentprimary);
+    background-color: var(--backgroundsecondary);
+    color: var(--textdark);
+    padding: 4px;
+    line-height: 30pt;
+}
+
+hr {
+    color: var(--accentprimary);
+}
+
+hr.main {
+    max-width: 90%;
+    height: 4px;
+    border-top: 1px solid var(--accentprimary);
+    border-right: 1px solid var(--accentprimary);
+    border-bottom: 1px solid var(--accentprimary);
+    border-left: 1px solid var(--accentprimary);
+}
+
+/* Files */
+img.no-border {
+    border: none;
+}
+
+audio{
+    border-radius:15px;
+}
+
+/* Viewports */
+@viewport {
+    width: device-width;
+    zoom: 1;
+}
+
+@media only screen and (max-width:800px) {
+    img {
+        max-width: 100%;
+        margin: auto;
+        border: 2px solid var(--textlighter);
+        border-radius: 15px;
+    }
+
+    video {
+        max-width: 100%;
+        margin: auto;
+        border: 2px solid var(--textlighter);
+        border-radius: 15px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    img {
+        max-width: 600px;
+        margin: auto;
+        border: 2px solid var(--textlighter);
+        border-radius: 15px;
+    }
+    video {
+        max-width: 45%;
+        margin: auto;
+        border: 2px solid var(--textlighter);
+        border-radius: 15px;
+    }
+
+    body {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    audio {
+        width: 500px;
+    }
+}
+
+
+
+

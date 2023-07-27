@@ -1,0 +1,48 @@
+@import url(root.css);
+
+@media only screen and (max-width:800px) {
+    #flex {
+        flex-wrap: wrap;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+        margin: auto;
+        border: 2px solid var(--textlighter);
+        border-radius: 15px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    img {
+        max-width: 320px;
+        margin: auto;
+        border: 2px solid var(--textlighter);
+        border-radius: 15px;
+    }
+
+    body {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+
+}
+
+#flex {
+    display: flex;
+}
+
+#project-display {
+    place-items: center;
+}
+
+#sidebar {
+    order: 3;
+    padding: 20px;
+    margin: left;
+}

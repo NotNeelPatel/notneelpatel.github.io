@@ -1,44 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <title>Neel Patel</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="../assets/styles.css" />
     <meta property="og:site_name" content="Neel Patel" />
-    <link rel="icon" type="image/x-icon" href="../assets/favicon.png" />
+    <meta property="og:image" content="./assets/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#242424" data-react-helmet="true" />
-    <meta property="og:image" content="../assets/favicon.png" />
-    <meta property="og:image" content="../assets/favicon.png" />
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.png" /><meta property="og:title" content="All About Wallpaper Theme Converter - Neel Patel"/>
-<meta property="og:description" content="An explanation on how it works and cool things I learned while making it"/>
-<meta property="og:url" content="notneelpatel.github.io/blog/2022-05-10-wallpaper-theme-converter.html"/>
-
+    <link rel="stylesheet" href="../assets/styles/root.css" />
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+    <meta property="og:url" content=/>
+    <meta property="og:title" content=/>
+    <meta property="og:description" content=/>
     <link
       rel="alternate"
       type="application/rss+xml"
       href="/feed.xml"
       title="RSS"
     />
-  </head>
-  <header>
-    <a class="white" href="../index.html"><h1>Not Neel Patel</h1></a>
-  </header>
+ 		<meta property="og:url" content="https://notneelpatel.github.io/blog/2022-05-10-wallpaper-theme-converter.html"/>
+		<meta property="og:title" content="All About Wallpaper Theme Converter"/>
+		<meta property="og:description" content="An explanation on how it works and cool things I learned while making it"/>
+   </head>
 
   <body>
+    <header>
+      <a class="white" href="../index.html"><h1>notneelpatel.github.io</h1></a>
+    </header>
     <hr class="main" />
-    <div id="navbar">
-      <li><a href="../index.html">Home</a></li>
+    <div class="navbar">
+      <li><a href="../index.html">home</a></li>
       <li><a> | </a></li>
-      <li><a href="../blog.html">Blog</a></li>
+      <li><a href="../blog.html">blog</a></li>
       <li><a> | </a></li>
-      <li><a href="../projects.html">Projects</a></li>
+      <li><a href="https://notneelpatel.github.io/portfolio">portfolio</a></li>
       <li><a> | </a></li>
-      <li><a href="../links.html">Links</a></li>
+      <li><a href="../links.html">links</a></li>
       <li><a> | </a></li>
-      <li><a href="../search.html">Search</a></li>
+      <li><a href="../search.html">search</a></li>
     </div>
     <hr class="main" />
+    
     <div id="main-container">
 <!---
 title:All About Wallpaper Theme Converter
@@ -55,7 +57,7 @@ description:An explanation on how it works and cool things I learned while makin
 <h3>How it works</h3>
 <p>It starts by using the html canvas element to draw the image and make the changes to it. When the user selects any of the buttons, it assigns the rgb values of the palette to a list/array. It also shows the colour palette by creating a new div element that is a square block for each colour.</p>
 <p>Upon clicking the convert button, it does a few calculations. In simple terms, it is trying to find the closest colour in the palette for each pixel. It does this by using the formula for 3D distances. This works because you can think of the x,y, and z coordinates as r,g, and b coordinates.</p>
-<p><img class="no-border" src="../assets/images/dist_formula.png"></p>
+<p><img alt="formula" src="../assets/images/dist_formula.png" /></p>
 <p>After calculating the distance for each of the colours in the palette, a list of all the distances is created and a simple sorting algorithm is used to find the lowest number. This value is the closest, since it's "distance" is the least compared to the original value of the pixel. The lowest number is associated with the colour in the palette that is closest to the original value.</p>
 <p>Once all the calculations are done for each pixel, the new image data is used to reconstruct the image.</p>
 <p>You can take a look at the source code <a href="https://github.com/NotNeelPatel/WallpaperThemeConverter/blob/main/assets/convert.js">here</a> if you want to see exactly what I'm explaining.</p>
@@ -71,33 +73,20 @@ description:An explanation on how it works and cool things I learned while makin
 <p>Maybe in the future when I really understand how image processing works, I can add some kind of algorithm that can make smoother images.</p>
 <p>I also need to fix the download button, since it only works on desktops at the moment.</p>
 <h3>Conclusion</h3>
-<p>Like probably 99% of other projects, a lot of my code is really just a melting pot of StackOverflow answers, especially the canvas code since that was completely foreign to me. I hope you learned something and if you have any comments, leave them below!</p>    </div>
-  </body>
-  <footer>
-      <div
-      id="cusdis_thread"
-      data-theme="dark"
-      data-host="https://cusdis.com"
-      data-app-id="30c15547-b7a9-4953-93a9-4a3bc586e558"
-data-page-id="All About Wallpaper Theme Converter"
-data-page-title="All About Wallpaper Theme Converter"
-
-    ></div>
-    <script async defer src="./templates/cusdis.es.js"></script>
-    <hr class="main" />
-    <ul>
-      <a href="../index.html">Home</a>
-      <a>|</a>
-      <a href="../blog.html">Blog</a>
-      <a>|</a>
-      <a href="../feed.xml">RSS</a>
-      <a>|</a>
-      <a href="https://github.com/NotNeelPatel">GitHub</a>
-      <a>|</a>
-      <a href="https://www.linkedin.com/in/notneelpatel/">Linkedin</a>
-      <a>|</a>
-      <a href="">YouTube (Coming soon!)</a>
-    </ul>
-    <a href="#top">↑ Top of page ↑</a>
-  </footer>
-</html>
+<p>Like probably 99% of other projects, a lot of my code is really just a melting pot of StackOverflow answers, especially the canvas code since that was completely foreign to me. I hope you learned something and if you have any comments, leave them below!</p>  </div>
+    <footer>
+        <hr class="main" />
+        <div class="navbar">
+          <li><a href="../index.html">home</a></li>
+          <li><a>|</a>
+          <li><a href="../blog.html">blog</a></li>
+          <li><a>|</a>
+          <li><a href="../feed.xml">RSS</a></li>
+          <li><a>|</a>
+          <li><a href="https://github.com/NotNeelPatel">github</a></li>
+        </div>
+        <br/>
+        <a href="#top">↑ Top of Page ↑</a>
+      </footer>
+    </body>
+  </html>

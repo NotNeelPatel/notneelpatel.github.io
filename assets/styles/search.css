@@ -1,33 +1,5 @@
 @import url(root.css);
 
-
-#flex {
-    display: flex;
-}
-
-
-
-#project-display {
-    place-items: center;
-}
-
-
-#cusdis_thread {
-
-    margin-left: 5%;
-    margin-right: 5%;
-
-}
-
-
-#sidebar {
-    order: 3;
-    padding: 20px;
-    margin: left;
-}
-
-
-
 .search-wrapper {
     display: flex;
     flex-direction: column;

@@ -1,72 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <title>Neel Patel</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="../assets/styles.css" />
     <meta property="og:site_name" content="Neel Patel" />
-    <link rel="icon" type="image/x-icon" href="../assets/favicon.png" />
+    <meta property="og:image" content="./assets/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#242424" data-react-helmet="true" />
-    <meta property="og:image" content="../assets/favicon.png" />
-    <meta property="og:image" content="../assets/favicon.png" />
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.png" /><meta property="og:title" content="Package Managers Will Change Your Life - Neel Patel"/>
-<meta property="og:description" content="How do you go about installing programs normally on your computer? Do you use an app store? Do you download the installation file on a website? While both of those methods are definitely viable, I'm going to introduce you to the best way to install apps"/>
-<meta property="og:url" content="notneelpatel.github.io/blog/2021-12-03-package-managers.html"/>
-
+    <link rel="stylesheet" href="../assets/styles/root.css" />
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+    <meta property="og:url" content=/>
+    <meta property="og:title" content=/>
+    <meta property="og:description" content=/>
     <link
       rel="alternate"
       type="application/rss+xml"
       href="/feed.xml"
       title="RSS"
     />
-  </head>
-  <header>
-    <a class="white" href="../index.html"><h1>Not Neel Patel</h1></a>
-  </header>
+ 		<meta property="og:url" content="https://notneelpatel.github.io/blog/2021-12-03-package-managers.html"/>
+		<meta property="og:title" content="Package Managers Will Change Your Life"/>
+		<meta property="og:description" content="Learn to install programs the hackerman way"/>
+   </head>
 
   <body>
+    <header>
+      <a class="white" href="../index.html"><h1>notneelpatel.github.io</h1></a>
+    </header>
     <hr class="main" />
-    <div id="navbar">
-      <li><a href="../index.html">Home</a></li>
+    <div class="navbar">
+      <li><a href="../index.html">home</a></li>
       <li><a> | </a></li>
-      <li><a href="../blog.html">Blog</a></li>
+      <li><a href="../blog.html">blog</a></li>
       <li><a> | </a></li>
-      <li><a href="../projects.html">Projects</a></li>
+      <li><a href="https://notneelpatel.github.io/portfolio">portfolio</a></li>
       <li><a> | </a></li>
-      <li><a href="../links.html">Links</a></li>
+      <li><a href="../links.html">links</a></li>
       <li><a> | </a></li>
-      <li><a href="../search.html">Search</a></li>
+      <li><a href="../search.html">search</a></li>
     </div>
     <hr class="main" />
+    
     <div id="main-container">
 <!---
 title:Package Managers Will Change Your Life
 date:Fri, 03 Dec 2021 22:00:00 EDT
-description:How do you go about installing programs normally on your computer? Do you use an app store? Do you download the installation file on a website? While both of those methods are definitely viable, I'm going to introduce you to the best way to install apps
+description:Learn to install programs the hackerman way
 --->
 
 <h2>Package Managers Will Change Your Life</h2>
 <h3>2021-12-03</h3>
-<p>How do you go about installing programs normally on your computer? Do you use an app store? Do you download the installation file on a website? While both of those methods are definitely viable, I'm going to introduce you to the best way to install apps: Using a package manager.</p>
+<p>How do you go about installing programs normally on your computer? Do you use an app store? Do you download the installation file on a website? While both of those methods are definitely viable, I'm going to introduce you to the best way to install apps: Using a terminal-based package manager.</p>
 <h3>What is a package manager?</h3>
-<p>Package managers allow you to install packages of apps, programs, and other data, such as dependencies for programs. Their main purpose are to install, remove, and update anything on your system. The package manager system is actually exactly what is used in programs like the app/play store on smartphones. With these apps, you're able to manage most/all your apps. Traditional package managers are usually terminal-based though.</p>
+<p>Package managers allow you to install packages of apps, programs, and other data, such as dependencies for programs. Their main purpose are to install, remove, and update anything on your system. The package manager system is actually exactly what is used in programs like the app/play store on smartphones. With these apps, you're able to manage most/all your apps. Traditional package managers on Linux are usually terminal-based though.</p>
 <h3>Examples of package managers:</h3>
-<p>If you've programmed before, you've probably used some language-based package managers, such as pip (python) or npm (javascript). You can do stuff like this to install any dependencies for you programs.</p>
+<p>If you've programmed before, you've probably used some language-based package managers, such as pip (python) or npm (javascript). You can do stuff like this to install libraries for you programs.</p>
 <p><code>pip install &lt;package&gt;</code></p>
 <p><code>npm install &lt;package&gt;</code></p>
-<p>What may be more helpful for the "average" user are the OS-based package managers. On Linux, there are hundreds, but the two most commonly used are: apt (on Debian and Ubuntu-based systems), and pacman (on Arch-based systems). They can also be used to do things like updates. What's nice about that is that you can continue using your computer as it's being handled by your package manager which is awesome.</p>
+<p>What may be more helpful for the average user are the OS-level package managers. On Linux, there are many, but the three most commonly used are: APT (on Debian and Ubuntu-based systems), Pacman (on Arch-based systems), and DNF (RHEL-based systems like Fedora). You can install, update, and remove software and many other packages just with some terminal commands. What's nice about that is that you can continue using your computer as it's being updated.</p>
 <p>Examples of installing packages:</p>
-<p>Apt:</p>
+<p>APT:</p>
 <p><code>sudo apt-get install &lt;package&gt;</code></p>
 <p>Pacman:</p>
 <p><code>sudo pacman -S &lt;package&gt;</code></p>
+<p>DNF:</p>
+<p><code>sudo dnf install &lt;package&gt;</code></p>
 <p>Examples of updating packages/system:</p>
-<p>Apt:</p>
+<p>APT:</p>
 <p><code>sudo apt update</code></p>
 <p><code>sudo apt upgrade</code></p>
 <p>Pacman:</p>
 <p><code>sudo pacman -Syu</code></p>
+<p>DNF:</p>
+<p><code>sudo dnf update</code></p>
+<p><code>sudo dnf upgrade</code></p>
 <p>Installing packages like this is also possible using powershell and winget on Windows. Winget is developed by Microsoft, so it's fairly limited. I'd highly suggest installing chocolatey as well to be able to install more apps and programs.</p>
 <p><code>winget install &lt;author.package&gt;</code></p>
 <p><code>choco install &lt;package&gt;</code></p>
@@ -76,33 +83,20 @@ description:How do you go about installing programs normally on your computer? D
 <p><code>winget install Discord.Discord</code></p>
 <p>and</p>
 <p><code>winget install Spotify.Spotify</code></p>
-<p>I didn't have to deal with the setup.exe or anything. The apps just opened after a few seconds after, just like as if I installed them from the Microsoft Store. It's quick, efficient, and you look cool when you do it. All it took me to do this was a simple command in the terminal. Using the terminal in general is something that is really useful, especially when installing programs, as it will often tell you exactly what's wrong with the program if you need to troubleshoot it. It's always more useful than getting some random numbered error and a very ambigious dialog box. Just don't be like Linus Tech Tips and read the message before nuking your desktop environment haha.</p>    </div>
-  </body>
-  <footer>
-      <div
-      id="cusdis_thread"
-      data-theme="dark"
-      data-host="https://cusdis.com"
-      data-app-id="30c15547-b7a9-4953-93a9-4a3bc586e558"
-data-page-id="Package Managers Will Change Your Life"
-data-page-title="Package Managers Will Change Your Life"
-
-    ></div>
-    <script async defer src="./templates/cusdis.es.js"></script>
-    <hr class="main" />
-    <ul>
-      <a href="../index.html">Home</a>
-      <a>|</a>
-      <a href="../blog.html">Blog</a>
-      <a>|</a>
-      <a href="../feed.xml">RSS</a>
-      <a>|</a>
-      <a href="https://github.com/NotNeelPatel">GitHub</a>
-      <a>|</a>
-      <a href="https://www.linkedin.com/in/notneelpatel/">Linkedin</a>
-      <a>|</a>
-      <a href="">YouTube (Coming soon!)</a>
-    </ul>
-    <a href="#top">↑ Top of page ↑</a>
-  </footer>
-</html>
+<p>I didn't have to deal with the setup.exe or anything. The apps just opened after a few seconds after, just like as if I installed them from the Microsoft Store (thats because I basically did). It's quick, efficient, and you look cool when you do it. All it took me to do this was a simple command in the terminal. Using the terminal in general is something that is really useful, especially when installing programs, as it will often tell you exactly what's wrong with the program if you need to troubleshoot it. It's always more useful than getting some random numbered error and a very ambiguous dialog box. Just don't be like Linus Tech Tips and read the message before nuking your desktop environment haha.</p>  </div>
+    <footer>
+        <hr class="main" />
+        <div class="navbar">
+          <li><a href="../index.html">home</a></li>
+          <li><a>|</a>
+          <li><a href="../blog.html">blog</a></li>
+          <li><a>|</a>
+          <li><a href="../feed.xml">RSS</a></li>
+          <li><a>|</a>
+          <li><a href="https://github.com/NotNeelPatel">github</a></li>
+        </div>
+        <br/>
+        <a href="#top">↑ Top of Page ↑</a>
+      </footer>
+    </body>
+  </html>

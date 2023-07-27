@@ -1,44 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <title>Neel Patel</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="../assets/styles.css" />
     <meta property="og:site_name" content="Neel Patel" />
-    <link rel="icon" type="image/x-icon" href="../assets/favicon.png" />
+    <meta property="og:image" content="./assets/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#242424" data-react-helmet="true" />
-    <meta property="og:image" content="../assets/favicon.png" />
-    <meta property="og:image" content="../assets/favicon.png" />
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.png" /><meta property="og:title" content="Free GPU: Too Good to be True - Neel Patel"/>
-<meta property="og:description" content="My attempt in fixing a free GPU"/>
-<meta property="og:url" content="notneelpatel.github.io/blog/2023-06-30-free-gpu.html"/>
-
+    <link rel="stylesheet" href="../assets/styles/root.css" />
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+    <meta property="og:url" content=/>
+    <meta property="og:title" content=/>
+    <meta property="og:description" content=/>
     <link
       rel="alternate"
       type="application/rss+xml"
       href="/feed.xml"
       title="RSS"
     />
-  </head>
-  <header>
-    <a class="white" href="../index.html"><h1>Not Neel Patel</h1></a>
-  </header>
+ 		<meta property="og:url" content="https://notneelpatel.github.io/blog/2023-06-30-free-gpu.html"/>
+		<meta property="og:title" content="Free GPU: Too Good to be True"/>
+		<meta property="og:description" content="My attempt in fixing a free GPU"/>
+   </head>
 
   <body>
+    <header>
+      <a class="white" href="../index.html"><h1>notneelpatel.github.io</h1></a>
+    </header>
     <hr class="main" />
-    <div id="navbar">
-      <li><a href="../index.html">Home</a></li>
+    <div class="navbar">
+      <li><a href="../index.html">home</a></li>
       <li><a> | </a></li>
-      <li><a href="../blog.html">Blog</a></li>
+      <li><a href="../blog.html">blog</a></li>
       <li><a> | </a></li>
-      <li><a href="../projects.html">Projects</a></li>
+      <li><a href="https://notneelpatel.github.io/portfolio">portfolio</a></li>
       <li><a> | </a></li>
-      <li><a href="../links.html">Links</a></li>
+      <li><a href="../links.html">links</a></li>
       <li><a> | </a></li>
-      <li><a href="../search.html">Search</a></li>
+      <li><a href="../search.html">search</a></li>
     </div>
     <hr class="main" />
+    
     <div id="main-container">
 <!---
 title:Free GPU: Too Good to be True
@@ -65,53 +67,40 @@ description:My attempt in fixing a free GPU
 <p>I ordered some thermal paste and thermal pads, replacing as much as I could. This was my first time taking apart a GPU and replacing thermal pads and thermal paste. As I put everything back together, I held my breath as I turned my PC on. I sighed in relief as I saw the screen output. But did it fix the problem? I booted up CS:GO and played a deathmatch. For the first time, I was able to play an entire deathmatch (10 minutes) without black screening. Success! I played another 2 deathmatches and it was still going strong!</p>
 <p>To celebrate I tried loading into Ancient, the hardest map to run in CS:GO's competitive map pool. As the map was loading though, I saw the same familiar black screen of death.</p>
 <p>To be honest, I don't know what the problem is now. Maybe there are some parts that are still not getting enough cooling. My computer case is very much meant for low-power parts so it doesn't have the best cooling. But even still, I removed as many panels as I could when testing and more importantly, I saw the temperatures of the GPU were supposedly at most 50°C. The GPU should be able to handle much more than that though. My best guess is that some temperature controller/sensor is broken and/or the GPU is suffocating. </p>
-<p>After lots of effort on my end, I decided to stop working on this GPU. While it's definitely better than my GT 730, it simply does not work, and that's the minimum requirement for me. It's not the ending any of us wanted, but that's just how it is for right now.. While I didn't get a sick GPU upgrade for free, I definitely learned a lot of things:</p>
-<p>1.AMD GPU Drivers aren't bulletproof; sometimes there is some massaging required to get them to perform properly.</p>
-<p>2.UNIX has this philosophy that "everything is a file", including your hardware (on Linux that would be your /dev folder). You can find lots of information about your hardware by reading through these files.</p>
-<p>3.The importance of Reddit (I have lots of gripes with Reddit now; their new API changes forced me to shut down <a href="https://notneelpatel.github.io/cat-hour">CAT / HOUR</a>)</p>
-<p>4.A lot of information about GPUs</p>
-<p>5.How to apply thermal paste and thermal pads properly</p>
-<p>6.If it's too good to be true, then it probably is.</p>    </div>
-  </body>
-  <footer>
-    <div id="cusdis_thread" data-theme="dark" data-host="https://cusdis.com" data-app-id="30c15547-b7a9-4953-93a9-4a3bc586e558" data-page-id="Free GPU Too Good to be True" data-page-title="Free GPU Too Good to be True"><iframe srcdoc="<!DOCTYPE html>
-<html>
-<head>
-  <link rel=&quot;stylesheet&quot; href=&quot;../blog/templates/cusdis.css&quot;>
-  <base target=&quot;_parent&quot; />
-  <link>
-  <script>
-    window.CUSDIS_LOCALE = undefined
-    window.__DATA__ = {&quot;theme&quot;:&quot;dark&quot;,&quot;host&quot;:&quot;https://cusdis.com&quot;,&quot;appId&quot;:&quot;30c15547-b7a9-4953-93a9-4a3bc586e558&quot;,&quot;pageId&quot;:&quot;Using The Colemak Keyboard Layout - 1 Year&quot;,&quot;pageTitle&quot;:&quot;Using The Colemak Keyboard Layout - 1 Year&quot;}
-  </script>
-  <style>
-    :root {
-      color-scheme: light;
-    }
-  </style>
-</head>
-<body>
-  <div id=&quot;root&quot;></div>
-  <script src=&quot;../blog/templates/cusdis-iframe.umd.js&quot; type=&quot;module&quot;>
-    
-  </script>
-</body>
-</html>" style="width: 100%; border: 0px none; height: 322px;"></iframe></div>
-  <script async="" defer="" src="./templates/cusdis.es.js"></script>
-  <hr class="main">
-  <ul>
-    <a href="../index.html">Home</a>
-    <a>|</a>
-    <a href="../blog.html">Blog</a>
-    <a>|</a>
-    <a href="../feed.xml">RSS</a>
-    <a>|</a>
-    <a href="https://github.com/NotNeelPatel">GitHub</a>
-    <a>|</a>
-    <a href="https://www.linkedin.com/in/notneelpatel/">Linkedin</a>
-    <a>|</a>
-    <a href="">YouTube (Coming soon!)</a>
-  </ul>
-  <a href="#top">↑ Top of page ↑</a>
-</footer>
-</html>
+<p>After lots of effort on my end, I decided to stop working on this GPU. While it's definitely better than my GT 730, it simply does not work, and that's the minimum requirement for me. It's not the ending any of us wanted, but that's just how it is for right now. While I didn't get a sick GPU upgrade for free, I definitely learned a lot of things:</p>
+<ol>
+<li>
+<p>AMD GPU Drivers aren't bulletproof; sometimes there is some massaging required to get them to perform properly.</p>
+</li>
+<li>
+<p>UNIX has this philosophy that "everything is a file", including your hardware (on Linux that would be your /dev folder). You can find lots of information about your hardware by reading through these files.</p>
+</li>
+<li>
+<p>The importance of Reddit (I have lots of gripes with Reddit now; their new API changes forced me to shut down <a href="https://notneelpatel.github.io/cat-hour">CAT / HOUR</a>)</p>
+</li>
+<li>
+<p>A lot of information about GPUs</p>
+</li>
+<li>
+<p>How to apply thermal paste and thermal pads properly</p>
+</li>
+<li>
+<p>If it's too good to be true, then it probably is.</p>
+</li>
+</ol>  </div>
+    <footer>
+        <hr class="main" />
+        <div class="navbar">
+          <li><a href="../index.html">home</a></li>
+          <li><a>|</a>
+          <li><a href="../blog.html">blog</a></li>
+          <li><a>|</a>
+          <li><a href="../feed.xml">RSS</a></li>
+          <li><a>|</a>
+          <li><a href="https://github.com/NotNeelPatel">github</a></li>
+        </div>
+        <br/>
+        <a href="#top">↑ Top of Page ↑</a>
+      </footer>
+    </body>
+  </html>
