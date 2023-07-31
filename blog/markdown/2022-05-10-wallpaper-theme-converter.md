@@ -1,6 +1,6 @@
 <!---
 title:All About Wallpaper Theme Converter
-date:Tues, 10 May 2022 12:00:00 EST
+date:Tue, 10 May 2022 12:00:00 EST
 description:An explanation on how it works and cool things I learned while making it
 --->
 

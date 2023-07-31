@@ -1,6 +1,6 @@
 <!---
 title:New Site Layout
-date:Tues, 26 Apr 2022 11:00:00 EST
+date:Tue, 26 Apr 2022 11:00:00 EST
 description:After about four months of working on/off on a new website layout, I've finally gotten to the point where I can share my website again
 --->
 
