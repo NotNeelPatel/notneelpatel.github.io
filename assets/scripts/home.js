@@ -10,7 +10,7 @@ fetch(json_file)
 
         for (let i = 0; i < 4; i++) {
             rand = Math.random();
-            rand = Math.floor(rand * (len + 1));
+            rand = Math.floor(1 + rand * len);
             let image = rand;
             if (!check.includes(rand)) {
                 check[i] = rand;
