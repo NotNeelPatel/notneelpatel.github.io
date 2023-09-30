@@ -18,9 +18,6 @@ I don't really mind that this album sounds derivative of Kanye's work, since Ye 
 
 I wanted to go over examples of Kanye influence because its super cool when I hear something that sounds familiar and knowing where it came from.
 
-#### Note: Due to copyrighted material being in these videos, you'll have to go onto YouTube to hear most of these examples. Links to each video is provided under every YouTube video embed.
-
-
 #### MODERN JAM
 
 This is a track that Travis has been working on since 2013 at least, since parts of this track come from an early version of Kanye's *I Am A God*. 
