@@ -122,9 +122,9 @@ This is another unreleased Kanye song from the *Donda* era that has now been use
 
 [Travis Scott - TELEKINESIS](https://www.youtube.com/watch?v=xl5LunV-OkU)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UQDkyjy0Xhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/XNt4d1eAnnw?si=14DitPcCtovX4947" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-[Kanye West - Future Sounds](https://www.youtube.com/watch?v=UQDkyjy0Xhw)
+[Kanye West - Future Sounds](https://youtu.be/XNt4d1eAnnw?si=14DitPcCtovX4947)
 
 ### Overall Thoughts on the Album
 
