@@ -1,0 +1,37 @@
+<!---
+title:AI is Already Here
+date:Sat, 17 Dec 2022 12:00:00 EST
+description:A perspective on AI as it stands in late 2022. Originally written in 2022, first posted in 2024.
+--->
+
+## AI is Already Here
+
+### 2022-12-17
+
+The year is (almost) 2023. The new thing that's taken the world by storm is ChatGPT by OpenAI, which can do amazing things. For the first time, it truly feels like you are talking to a real AI like in the movies. It really is fascinating and awesome. Just a couple months ago, we were in awe with the art and photorealistic work that AI such as DALL-E 2 and other stable diffusion tools can achieve and this week OpenAI did it again.
+
+I'm making this blog most more as a time capsule; a way to remind us what the world was like before AI was an integral part of everyday life. I am almost certain that AI chatbots like ChatGPT, DALL-E, and the like will be just as normalized as Google is. Google is a very good example of what it's like to be an internet user right now. I can only imagine how crazy it would be to be able to have accurate search results that give you good websites with useful information. I don't realize just how much of a privilege it is to live in such a world where you can literally search for anything and you'll get some response, let alone doing this with AI. ChatGPT is also akin to Google as in the way I personally use it. If I need some solution to an answer, I now have two powerful tools, not to mention all the other searching tools that I have in my toolbox (namely multiple search engines).
+
+### The Good
+
+Not only is AI great for being an additional support for getting answers, but it can basically find any answer you're looking for with an original/efficient solution. Programmers are having the time of their lives asking it to make pretty much anything for them, musicians can use it for chord progressions, artists can request prompts and incorporate it into their art, and writers can basically get their entire jobs done for them. Mundane/difficult tasks are only going to get easier, allowing for people to spend more time on being creative.
+
+### A Double-Edged Sword?
+
+Students will use this to cheat, jobs will be lost, and who knows what other knock-on effects that AI will have in the future? I personally have a positive outlook on this to be honest. Like I mentioned, AI does the dirty work so that we can do the creative stuff to make things work. AI is nowhere near at the intelligence level of humans. The smartest AI can do technically amazing things, but at the same time, it will never be able to think or behave anything like even the dumbest human. The other important thing of note is that jobs will always be lost, no matter what. That's how technology works. On one hand, this sounds quite mean, but it's for the better. This is the next industrial revolution, and the standard of living can only improve with AI dealing with work that can be automated.
+
+### Search Engines are Obsolete
+
+My kids will not need to learn how to use a search engine effectively. They will simply need to ask the AI whatever they please, and the AI will just fetch them whatever they asked for. AI is already capable of creating lines of code now, just imagine what it will be able to do in a handful of years. It won't be long until we have content created solely by AI.
+
+Do I feel sad that this skill that I've honed after all these years will be obsolete? No. It gives me a great idea on how this all works and makes me appreciate the AI even more. I'm still going to use both search engines and AI until one is significantly better. Search engines will still be around for many years still, so it will be even more handy now as there will be a lot of AI-generated nonsense that I'll have to filter through, if I'm not already.
+
+### The Impact on Education
+
+If you are a student now, this is the perfect time to abuse the system. There will never be a better time to cheat your way through life than now. Schools will be slow to implement some kind of way to prevent cheating, but the time window is quite short though. I don't condone you to cheat, as you won't be learning any useful skill from using an AI to give you an answer. However, I've already found uses for it which are helpful in a non-destructful way. While practicing using a mock-test, I used ChatGPT to see if there was a more efficent way to solve an answer, only to find it do the same thing as I did. It's quite validating when your response is as good, if not better than the AI's version. Right now, I feel like my implementation of the FizzBuzz program is better than the AI.
+
+If I were a teacher, I would try to embrace the AI where I can. After all, it's a tool. Students are bound to use it. In the future, not using AI will sound as stupid as not using Google for an assignment. A way that I may be able to "combat" the AI is to make sure that assignments have very clear instructions where the student must format their solution in a specific way, create original problems, and make content more interactive in the classroom. Asking the AI is also a good way to get ideas on how one may prevent cheating in an academic environment.
+
+### Update 2024:
+
+It seems that I have found this file again after about a year. As I mentioned, I know the world of AI is rapidly changing so I am publishing this to keep track of what someone in 2022 may have thought about AI.

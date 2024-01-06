@@ -49,8 +49,8 @@ body {
     background-color: var(--backgroundprimary);
     font-family: var(--primaryfont);
     color: var(--textdarker);
-    font-size: 15pt;
-    line-height: 18pt;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 /* Footer */
@@ -166,10 +166,6 @@ audio{
         border-radius: 15px;
     }
     
-    #navbar{
-        max-width: fit-content;
-    }
-
     #main-container {
         margin-left: 5%;
         margin-right: 5%;
