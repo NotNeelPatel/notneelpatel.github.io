@@ -41,7 +41,6 @@ header {
 
 .navbar a {
     font-style: italic;
-    text-decoration: none;
 }
 
 /* Body */
@@ -80,19 +79,62 @@ h3,
 h4,
 h5 {
     font-family: var(--secondaryfont);
-    line-height: 25pt;
+    line-height: 25px;
     color: var(--textlight);
 }
 
-a {
-    text-decoration: none;
-    text-decoration-line: none;
-    color: var(--linkcolour)
-}
 
-a:hover {
-    color: var(--textlighter);
-}
+/* Modified code from https://github.com/Softwave/softwave.github.io/blob/master/style.css#L108 */
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: var(--linkcolour);
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--linkcolour);
+    transform-origin: bottom right;
+    transition: transform 0.2s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  a {
+    text-decoration: none;
+    display: inline;
+    position: relative;
+    color: var(--linkcolour);
+  }
+  
+  a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--linkcolour);
+    transform-origin: bottom right;
+    transition: transform 0.15s ease-out;
+  }
+  
+  a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
 
 /* Individual Elements */
 code {
