@@ -92,7 +92,7 @@ h5 {
     color: var(--linkcolour);
   }
   
-  .hover-underline-animation::after {
+.hover-underline-animation::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -105,19 +105,19 @@ h5 {
     transition: transform 0.2s ease-out;
   }
   
-  .hover-underline-animation:hover::after {
+.hover-underline-animation:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
   
-  a {
+a {
     text-decoration: none;
     display: inline;
     position: relative;
     color: var(--linkcolour);
   }
   
-  a::after {
+a::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -130,10 +130,14 @@ h5 {
     transition: transform 0.15s ease-out;
   }
   
-  a:hover::after {
+a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+
+h1 a{
+    color:var(--accentprimary);
+}
 
 
 /* Individual Elements */
