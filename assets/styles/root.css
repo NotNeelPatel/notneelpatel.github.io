@@ -21,7 +21,6 @@
     --primaryfont: "Fantasque Sans Mono", serif;
     --secondaryfont: "Noto Serif", serif;
     --italicizedfont: "Noto Serif", sans-serif;
-
 }
 
 :root.light{
@@ -34,7 +33,7 @@
     --textlighter: #7c6f64;
     --textlight: #665c54;
     --textdark: #504945;
-    --textdarker: #5e4d4d;
+    --textdarker: #282828;
 
     --linkcolour: #458588;
 }
@@ -51,11 +50,7 @@
     --textdarker: #ebdbb2;
 
     --linkcolour: #83a598;
-    --linkcolour2: #8ec07c;
-    -l:#83a598;
 }
-
-
 
 /*--- Global Styles ---*/
 /* Header */
