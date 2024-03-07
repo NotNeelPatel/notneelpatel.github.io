@@ -12,16 +12,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
     <link rel="stylesheet" href="./assets/styles/home.css"/>
-    <script src="./assets/scripts/home.js" defer></script>
   </head>
 
   <body>
     <header>
+      <div></div>
       <h1>
-      <a href="/index.html">
-        notneelpatel.tech
-      </a>
+      <a href="/index.html">notneelpatel.tech</a>
       </h1>
+      <a onclick="toggleDarkMode()" id="darkModeToggle" href="#">🌙</a>
     </header>
 
     <hr class="main" />
@@ -152,7 +151,8 @@
           <a href="https://open.spotify.com/user/neekopat?si=132f375fe0c147be">
             <img
               src="https://spotify-github-profile.vercel.app/api/view?uid=neekopat&amp;cover_image=true&amp;theme=natemoo-re&amp;bar_color=ffffff&amp;bar_color_cover=false"
-              alt="spotify-github-profile" style="background-color: #7c6f64; border: 2px solid #665c54; border-radius: 15px;" 
+              alt="spotify-github-profile"
+              id="spotify-github-profile"
             />
           </a>
           <img class="no-border" style="max-width: fit-content"src="./assets/images/spider-man.gif" />
@@ -161,6 +161,9 @@
       </div>
     </div>
     <footer>
+      <script src="./assets/scripts/home.js" defer></script>
+      <script src="./assets/scripts/darkmode.js" defer></script>
+      <script src="./assets/scripts/oneko.js"></script>
       <hr class="main" />
       <div class="navbar">
         <li><a href="./index.html">home</a></li>

@@ -22,11 +22,11 @@
 
   <body>
     <header>
+      <div></div>
       <h1>
-        <a href="/index.html">
-          notneelpatel.tech
-        </a>
+      <a href="/index.html">notneelpatel.tech</a>
       </h1>
+      <a onclick="toggleDarkMode()" id="darkModeToggle" href="#">🌙</a>
     </header>
     <hr class="main" />
     <div class="navbar">
@@ -55,17 +55,17 @@ description:Who knew making remixes could be so easy
 <p>Here are some of my favourites that I've remixed:</p>
 <p><strong>2 of Amerikaz Most Wanted</strong> - <em>2Pac, Snoop Dogg</em></p>
 <div style="
-background-color: #d5c4a1;
+background-color: var(--backgroundsecondary);
 padding:15px;
 border-radius: 15px;
 max-width: 615px">
-<audio controls><source src="../assets/audio/2_Of_Bowzaz_Most_Wanted.mp3" type="audio/mpeg"></audio>
+<audio controls style="vertical-align: middle"><source src="../assets/audio/2_Of_Bowzaz_Most_Wanted.mp3" type="audio/mpeg"></audio>
 <img class="no-border" style="max-height:100px;vertical-align: middle;" src="../assets/images/snoop.gif">
 </div>
 
 <p><strong>A Cruel Angel's Thesis</strong> - <em>Yoko Takahashi</em></p>
 <div style="
-background-color: #d5c4a1;
+background-color: var(--backgroundsecondary);
 padding:15px;
 border-radius: 15px;
 max-width: 615px">
@@ -75,7 +75,7 @@ max-width: 615px">
 
 <p><strong>Beat It</strong> - <em>Michael Jackson</em></p>
 <div style="
-background-color: #d5c4a1;
+background-color: var(--backgroundsecondary);
 padding:15px;
 border-radius: 15px;
 max-width: 615px">
@@ -85,7 +85,7 @@ max-width: 615px">
 
 <p><strong>Duvet</strong> - <em>bôa</em></p>
 <div style="
-background-color: #d5c4a1;
+background-color: var(--backgroundsecondary);
 padding:15px;
 border-radius: 15px;
 max-width: 615px">
@@ -95,7 +95,7 @@ max-width: 615px">
 
 <p><strong>Everytime We Touch</strong> - <em>Cascada</em></p>
 <div style="
-background-color: #d5c4a1;
+background-color: var(--backgroundsecondary);
 padding:15px;
 border-radius: 15px;
 max-width: 615px">
@@ -105,7 +105,7 @@ max-width: 615px">
 
 <p><strong>Feel Good Inc.</strong> - <em>Gorillaz</em></p>
 <div style="
-background-color: #d5c4a1;
+background-color: var(--backgroundsecondary);
 padding:15px;
 border-radius: 15px;
 max-width: 615px">
@@ -115,7 +115,7 @@ max-width: 615px">
 
 <p><strong>Flim</strong> - <em>Aphex Twin</em></p>
 <div style="
-background-color: #d5c4a1;
+background-color: var(--backgroundsecondary);
 padding:15px;
 border-radius: 15px;
 max-width: 615px">
@@ -125,7 +125,7 @@ max-width: 615px">
 
 <p><strong>Gerudo Valley</strong> - <em>Koji Kondo</em></p>
 <div style="
-background-color: #d5c4a1;
+background-color: var(--backgroundsecondary);
 padding:15px;
 border-radius: 15px;
 max-width: 615px">
@@ -135,7 +135,7 @@ max-width: 615px">
 
 <p><strong>Reckoner</strong> - <em>Radiohead</em></p>
 <div style="
-background-color: #d5c4a1;
+background-color: var(--backgroundsecondary);
 padding:15px;
 border-radius: 15px;
 max-width: 615px">
@@ -145,7 +145,7 @@ max-width: 615px">
 
 <p><strong>Waluigi Pinball</strong> - <em>Kentaro Ishizaka</em></p>
 <div style="
-background-color: #d5c4a1;
+background-color: var(--backgroundsecondary);
 padding:15px;
 border-radius: 15px;
 max-width: 615px">
@@ -192,6 +192,7 @@ Press + Add to add your file, click on Convert, and you can save your file as pr
 <h3>In Conclusion...</h3>
 <p>The world of MIDI is so cool. I love browsing through MIDI file websites and checking out what talented people have made. This was the way a lot of people enjoyed their music back when internet speeds were slow. MIDI files were also used in game consoles up until the early 2000s, which is one of the reasons as to why an N64 game's soundfont is used for these remixes. Unfortunately, games are allowed to be as large as they please, (side note: why are games like COD: Warzone like 200+ GB, its absurd) so we don't see MIDI used nearly as much in this recreational manner as before. I think there's a lot more potential with this technique and I'm just scratching the surface on crazy things someone can do with this knowledge. Go on and make a MIDI remix!</p>  </div>
     <footer>
+        <script src="../assets/scripts/darkmode.js" defer></script>
         <hr class="main" />
         <div class="navbar">
           <li><a href="../index.html">home</a></li>

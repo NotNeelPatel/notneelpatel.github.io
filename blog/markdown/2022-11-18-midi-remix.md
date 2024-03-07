@@ -15,18 +15,18 @@ Here are some of my favourites that I've remixed:
 **2 of Amerikaz Most Wanted** - _2Pac, Snoop Dogg_
 
 <div style="
-background-color: #d5c4a1;
+background-color: var(--backgroundsecondary);
 padding:15px;
 border-radius: 15px;
 max-width: 615px">
-<audio controls><source src="../assets/audio/2_Of_Bowzaz_Most_Wanted.mp3" type="audio/mpeg"></audio>
+<audio controls style="vertical-align: middle"><source src="../assets/audio/2_Of_Bowzaz_Most_Wanted.mp3" type="audio/mpeg"></audio>
 <img class="no-border" style="max-height:100px;vertical-align: middle;" src="../assets/images/snoop.gif">
 </div>
 
 **A Cruel Angel's Thesis** - _Yoko Takahashi_
 
 <div style="
-background-color: #d5c4a1;
+background-color: var(--backgroundsecondary);
 padding:15px;
 border-radius: 15px;
 max-width: 615px">
@@ -37,7 +37,7 @@ max-width: 615px">
 **Beat It** - _Michael Jackson_
 
 <div style="
-background-color: #d5c4a1;
+background-color: var(--backgroundsecondary);
 padding:15px;
 border-radius: 15px;
 max-width: 615px">
@@ -48,7 +48,7 @@ max-width: 615px">
 **Duvet** - _bôa_
 
 <div style="
-background-color: #d5c4a1;
+background-color: var(--backgroundsecondary);
 padding:15px;
 border-radius: 15px;
 max-width: 615px">
@@ -59,7 +59,7 @@ max-width: 615px">
 **Everytime We Touch** - _Cascada_
 
 <div style="
-background-color: #d5c4a1;
+background-color: var(--backgroundsecondary);
 padding:15px;
 border-radius: 15px;
 max-width: 615px">
@@ -70,7 +70,7 @@ max-width: 615px">
 **Feel Good Inc.** - _Gorillaz_
 
 <div style="
-background-color: #d5c4a1;
+background-color: var(--backgroundsecondary);
 padding:15px;
 border-radius: 15px;
 max-width: 615px">
@@ -81,7 +81,7 @@ max-width: 615px">
 **Flim** - _Aphex Twin_
 
 <div style="
-background-color: #d5c4a1;
+background-color: var(--backgroundsecondary);
 padding:15px;
 border-radius: 15px;
 max-width: 615px">
@@ -92,7 +92,7 @@ max-width: 615px">
 **Gerudo Valley** - _Koji Kondo_
 
 <div style="
-background-color: #d5c4a1;
+background-color: var(--backgroundsecondary);
 padding:15px;
 border-radius: 15px;
 max-width: 615px">
@@ -103,7 +103,7 @@ max-width: 615px">
 **Reckoner** - _Radiohead_
 
 <div style="
-background-color: #d5c4a1;
+background-color: var(--backgroundsecondary);
 padding:15px;
 border-radius: 15px;
 max-width: 615px">
@@ -114,7 +114,7 @@ max-width: 615px">
 **Waluigi Pinball** - _Kentaro Ishizaka_
 
 <div style="
-background-color: #d5c4a1;
+background-color: var(--backgroundsecondary);
 padding:15px;
 border-radius: 15px;
 max-width: 615px">

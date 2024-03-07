@@ -7,7 +7,7 @@
 :root{
     --backgroundprimary: #f2e5bc;
     --backgroundsecondary: #ebdbb2;
-    --backgroundtertiary: #d5c4a1;
+    --backgroundtertiary: #7c6f64;
     --accentprimary: #427b58;
     --accentsecondary: #f44336;
     
@@ -24,11 +24,75 @@
 
 }
 
+:root.light{
+    --backgroundprimary: #f2e5bc;
+    --backgroundsecondary: #ebdbb2;
+    --backgroundtertiary: #7c6f64;
+    --accentprimary: #427b58;
+
+    
+    --textlighter: #7c6f64;
+    --textlight: #665c54;
+    --textdark: #504945;
+    --textdarker: #5e4d4d;
+
+    --linkcolour: #458588;
+}
+
+:root.dark{
+    --backgroundprimary: #282828;
+    --backgroundsecondary: #3c3836;
+    --backgroundtertiary: #282828;
+    --accentprimary: #d5c4a1;
+    
+    --textlighter: #928374;
+    --textlight: #d5c4a1;
+    --textdark: #d5c4a1;
+    --textdarker: #ebdbb2;
+
+    --linkcolour: #83a598;
+    --linkcolour2: #8ec07c;
+    -l:#83a598;
+}
+
+
+
 /*--- Global Styles ---*/
 /* Header */
 header {
-    width: 100%;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 5% 1fr 5%;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    grid-template-rows: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 70px;
+    align-items: baseline;
+}
+
+header h1 {
     text-align: center;
+    display: inline;
+}
+
+header a::after {
+    width: 0%;
+    transform: scaleX(0);
+  }
+  
+header a:hover::after {
+    transform: scaleX(0);
+  }
+
+#darkModeToggle {
+    text-decoration: none;
+    color: transparent;  
+    text-shadow: 0 0 0 var(--accentprimary);
+    font-size: x-large;
+    margin-right: 0;
 }
 
 .navbar {
@@ -86,30 +150,6 @@ h5 {
 
 /* Modified code from https://github.com/Softwave/softwave.github.io/blob/master/style.css#L108 */
 
-.hover-underline-animation {
-    display: inline-block;
-    position: relative;
-    color: var(--linkcolour);
-  }
-  
-.hover-underline-animation::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: var(--linkcolour);
-    transform-origin: bottom right;
-    transition: transform 0.2s ease-out;
-  }
-  
-.hover-underline-animation:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
-  
 a {
     text-decoration: none;
     display: inline;
