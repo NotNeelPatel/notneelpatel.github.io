@@ -104,11 +104,21 @@ header a:hover::after {
 
 /* Body */
 body {
-    background-color: var(--backgroundprimary);
+    background-color: var(--backgroundsecondary);
     font-family: var(--primaryfont);
     color: var(--textdarker);
     font-size: 20px;
     line-height: 24px;
+}
+
+#main-container{
+    background-color: var(--backgroundprimary);
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /* Footer */
@@ -203,7 +213,7 @@ hr.main {
 }
 
 hr.main:after {
-    background: var(--backgroundprimary);
+    background: var(--backgroundsecondary);
     content: '//';
     color: var(--linkcolour);
     padding: 0 4px;
@@ -227,7 +237,7 @@ audio{
     zoom: 1;
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1200px) {
 
     h1{
         font-size: x-large;
@@ -246,14 +256,9 @@ audio{
         border: 2px solid var(--textlighter);
         border-radius: 15px;
     }
-    
-    #main-container {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
     img {
         max-width: 600px;
         margin: auto;
@@ -274,13 +279,6 @@ audio{
     body {
         margin-left: 15%;
         margin-right: 15%;
-    }
-
-    #main-container {
-        margin-left: 5%;
-        margin-right: 5%;
-        padding-left: 10px;
-        padding-right: 10px;
     }
 }
 
