@@ -53,6 +53,13 @@
 }
 
 /*--- Global Styles ---*/
+
+/* Make top of page button smoothly scroll up */
+html {
+    scroll-snap-type: y proximity;
+    scroll-behavior: smooth;
+}
+
 /* Header */
 header {
     margin-right: 5%;

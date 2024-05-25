@@ -8,7 +8,7 @@ description:Who knew making remixes could be so easy
 
 ### 2022-11-19
 
-A while back, I discovered Super Mario 64 Super Mario remixes of Aphex Twin and Radiohead tracks and thought that they were the coolest thing ever. I tried having a go at it, only to find out that it's incredibly easy to do it. It uses a simple yet effective technology: MIDI (scroll down if you want to learn how I did it).
+A while back, I discovered Super Mario 64 remixes of Aphex Twin and Radiohead tracks and thought they were the coolest thing ever. I tried my hand at making one and found that it's surprisingly easy to do using a simple yet effective technology: MIDI (Musical Instrument Digital Interface).
 
 Here are some of my favourites that I've remixed:
 
@@ -124,9 +124,9 @@ max-width: 615px">
 
 ### How It Works
 
-MIDI (musical instrument digital interface) is essentially a universal system that allows for instruments to communicate with each other and computers. While MIDI encompasses a lot more, including programming and other musical standards, what's important for this case are the files. MIDI files (.mid) are not like typical .mp3 and .wav files as they don't actually hold any audio data. Instead, they're a lot more like sheet music in that they are instructions for an interpreter to play notes. MIDI files hold data like the notes all the instruments are playing, dynamics (volume), and tempo (speed). Along with that, they are all standardized in some ways. Drums should always be on the 10th channel for example. Note that there are different standards, which is probably why some of your MIDI files seem extremely wrong.
+MIDI is essentially a universal system that allows instruments to communicate with each other and computers. While MIDI encompasses much more, including programming and other musical standards, what's important for this case are the files. MIDI files (.mid) are not like typical .mp3 and .wav files because they don't actually hold any audio data. Instead, they're more like sheet music, containing instructions for an interpreter to play notes. MIDI files include data like the notes all the instruments are playing, dynamics (volume), and tempo (speed). They are standardized in some ways; for example, drums should always be on the 10th channel.
 
-There's another important component to this: soundfonts. If you were to play a MIDI file on your computer (assuming you have a media player that can play them), you would just hear the song normally. To add the Mario 64 instruments and sounds, you need use a soundfont. Soundfonts contain the actual audio for instruments. As I mentioned, MIDI is a standard, so this would mean that instruments will correspond to whatever the MIDI file requests.
+Another important component is soundfonts. When you play a MIDI file on your computer (assuming you have a media player that can play them), you'll hear the song normally. To add the Mario 64 instruments and sounds, you need to use a soundfont. Soundfonts contain the actual audio for instruments. Since MIDI is a standard, the instruments correspond to what the MIDI file requests.
 
 ### How To Make Your Own Remixes
 
@@ -180,7 +180,7 @@ I found most of mine on
 
 [https://animezen.net/midis](https://animezen.net/midis) (anime)
 
-Choosing a good MIDI file will make the song much better. Choose MIDIs with lots of instruments used for best results! Try a variety of artists and genres when looking for stuff. The best ones tend to be instrumentals and dance music (IDM, EDM, etc.), but I've listened to some amazing MIDIs in all of my favourite genres.
+Choosing a good MIDI file will make the song much better. MIDIs with lots of instruments tend to work best. Try a variety of artists and genres; the best ones are often instrumentals and dance music (IDM, EDM, etc.).
 
 ### Rendering Files as mp3
 
@@ -191,7 +191,7 @@ Press + Add to add your file, click on Convert, and you can save your file as pr
 
 ### Adjusting Soundfonts
 
-Sometimes the soundfonts just don't work well. I recommend using [Swami](http://www.swamiproject.org/) to edit soundfont files. You can add/remove instruments, change the channels for instruments, and a lot more to make them work better with your midi files.
+If the soundfonts don't work well, use [Swami](http://www.swamiproject.org/) to edit soundfont files. You can add/remove instruments, change channels, and more to make them work better with your MIDI files.
 
 ### You Can Do More Than Mario 64
 
@@ -199,4 +199,4 @@ I've seen soundfonts for Undertale, Minecraft, DOOM, and more. The instruments f
 
 ### In Conclusion...
 
-The world of MIDI is so cool. I love browsing through MIDI file websites and checking out what talented people have made. This was the way a lot of people enjoyed their music back when internet speeds were slow. MIDI files were also used in game consoles up until the early 2000s, which is one of the reasons as to why an N64 game's soundfont is used for these remixes. Unfortunately, games are allowed to be as large as they please, (side note: why are games like COD: Warzone like 200+ GB, its absurd) so we don't see MIDI used nearly as much in this recreational manner as before. I think there's a lot more potential with this technique and I'm just scratching the surface on crazy things someone can do with this knowledge. Go on and make a MIDI remix!
+The world of MIDI is fascinating. I love browsing MIDI file websites and seeing what talented people have created. This was how many people enjoyed their music when internet speeds were slow. MIDI files were also used in game consoles until the early 2000s, which is why an N64 game's soundfont is used for these remixes. Nowadays, games can be as large as they please (side note: why are games like COD: Warzone 200+ GB, it's absurd), so we don't see MIDI used as much for recreational remixing as before. I think there's a lot more potential with this technique, and I'm just scratching the surface of what can be done. Go on and make a MIDI remix!

@@ -8,7 +8,7 @@ description:A review of Travis Scott's new album and some things I noticed in th
 
 ### 2023-07-31
 
-Travis Scott's *UTOPIA* is a great album. Travis really put in the effort to drop a well-produced album that has great features and overall I really enjoyed it. I've noticed a lot of fun things in some of the tracks that I wanted to point out and discuss.
+Travis Scott's *UTOPIA* is a great album. Travis really put in the effort to drop a well-produced album with great features, and overall, I really enjoyed it. I've noticed a lot of fun things in some of the tracks that I wanted to point out and discuss.
 
 ### The Kanye Influence
 
@@ -124,8 +124,8 @@ This is another unreleased Kanye song from the *Donda* era that has now been use
 
 <iframe width="560" height="315" src="https://youtu.be/XNt4d1eAnnw?si=14DitPcCtovX4947" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-[Kanye West - Future Sounds](https://youtu.be/XNt4d1eAnnw?si=14DitPcCtovX4947)
+[Kanye West - Sounds](https://www.youtube.com/watch?v=6Zl3A9JdDk0)
 
 ### Overall Thoughts on the Album
 
-Travis Scott could've continued to ride the waves of *ASTROWORLD* and continue with psychedelic trap but instead he continued to push his sound forward in a way that makes *UTOPIA* special. Although it is derivative (and not just of Kanye), the influences Travis picks from are my favourites so I can't really hate on him for that. The concepts in the album are interesting and each track feels wildly different from each other. For that reason, it makes it hard to pinpoint the exact sound of *UTOPIA*, whereas you can for *Yeezus* or *Donda*. I hope Travis continues to work on his lyricism, adds more grime to his beats, and makes stuff he's actually passionate about. It's a strong contender for one of my favourite albums of the year, although I have to admit that JPEGMAFIA and Danny Brown's *SCARING THE HOES* is still my favourite album this year so far.
+Travis Scott could've continued to ride the waves of *ASTROWORLD* and stick with psychedelic trap, but instead, he continued to push his sound forward in a way that makes UTOPIA special. Although it is derivative (and not just of Kanye), the influences Travis picks from are my favorites, so I can't really hate on him for that. The concepts in the album are interesting, and each track feels wildly different from each other. For that reason, it makes it hard to pinpoint the exact sound of *UTOPIA*, whereas you can for *Yeezus* or *Donda*. I hope Travis continues to work on his lyricism, adds more grime to his beats, and makes stuff he's actually passionate about. It's a strong contender for one of my favorite albums of the year, although I have to admit that JPEGMAFIA and Danny Brown's *SCARING THE HOES* is still my favorite album this year so far.
