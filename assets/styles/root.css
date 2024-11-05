@@ -1,77 +1,81 @@
 /*--- Imports ---*/
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,100&display=swap');
-@import url('https://fonts.cdnfonts.com/css/fantasque-sans-mono');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 
 /*--- Colour Scheme ---*/
 :root{
-    --backgroundprimary: #f2e5bc;
-    --backgroundsecondary: #ebdbb2;
-    --backgroundtertiary: #7c6f64;
-    --accentprimary: #427b58;
+    --backgroundprimary: #f2efdf;
+    --backgroundsecondary: #f2efdf;
+    --backgroundtertiary: #bec5b2;
+    --accentprimary: #35a77c;
     --accentsecondary: #f44336;
     
-    --textlighter: #7c6f64;
-    --textlight: #665c54;
-    --textdark: #504945;
-    --textdarker: #282828;
+    --textlighter: #4d5960;
+    --textlight: #3a464c;
+    --textdark: #333c43;
+    --textdarker: #293136;
 
-    --linkcolour: #458588;
+    --linkcolour: #35a77c;
 
-    --primaryfont: "Fantasque Sans Mono", serif;
-    --secondaryfont: "Noto Serif", serif;
-    --italicizedfont: "Noto Serif", sans-serif;
+    --primaryfont: "Lora", serif;
+    --secondaryfont: "Lora", serif;
+    --italicizedfont: "Lora", sans-serif;
 }
 
 :root.light{
-    --backgroundprimary: #f2e5bc;
-    --backgroundsecondary: #ebdbb2;
-    --backgroundtertiary: #7c6f64;
-    --accentprimary: #427b58;
-
+    --backgroundprimary: #f2efdf;
+    --backgroundsecondary: #f2efdfe6;
+    --backgroundtertiary: #bec5b2;
+    --accentprimary: #35a77c;
     
-    --textlighter: #7c6f64;
-    --textlight: #665c54;
-    --textdark: #504945;
-    --textdarker: #282828;
+    --textlighter: #4d5960;
+    --textlight: #3a464c;
+    --textdark: #333c43;
+    --textdarker: #293136;
 
-    --linkcolour: #458588;
+    --linkcolour: #35a77c;
 }
 
 :root.dark{
-    --backgroundprimary: #282828;
-    --backgroundsecondary: #3c3836;
-    --backgroundtertiary: #282828;
-    --accentprimary: #d5c4a1;
+    --backgroundprimary: #2c3831;
+    --backgroundsecondary: #2c3831e6;
+    --backgroundtertiary: #48584e;
+    --accentprimary: #83c092;
     
-    --textlighter: #928374;
-    --textlight: #d5c4a1;
-    --textdark: #d5c4a1;
-    --textdarker: #ebdbb2;
+    --textlighter: #a1b691;
+    --textlight: #ffe9b6;
+    --textdark: #ffe9b6;
+    --textdarker: #d3ceaa;
 
-    --linkcolour: #83a598;
+    --linkcolour: #83c092;
 }
 
 /*--- Global Styles ---*/
-
-/* Make top of page button smoothly scroll up */
 html {
     scroll-snap-type: y proximity;
     scroll-behavior: smooth;
+    background: url("../images/bg.png"), var(--backgroundprimary);
+    animation: moveBackground 20s linear infinite;
 }
 
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0px 800px; /* Adjust this to control speed */
+  }
+}
 /* Header */
 header {
-    margin-right: 5%;
-    margin-left: 5%;
+    margin: 0 5%;
     display: grid;
     grid-template-columns: 5% 1fr 5%;
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
     grid-template-rows: 0;
-    margin-top: 0;
-    margin-bottom: 0;
     padding-bottom: 70px;
+    padding-top: -10px;
     align-items: baseline;
 }
 
@@ -114,24 +118,20 @@ body {
     background-color: var(--backgroundsecondary);
     font-family: var(--primaryfont);
     color: var(--textdarker);
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.25rem;
+    line-height: 1.3em;
+    margin: 0;
+    padding: 0;
 }
 
 #main-container{
     background-color: var(--backgroundprimary);
-    border-radius: 15px;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 5px 4vw;
 }
 
 /* Footer */
 footer {
-    margin-top: 0.5em;
-    padding-top: 0.5em;
+    padding: 1vh 0;
     text-align: center;
 }
 
@@ -195,8 +195,8 @@ h1 a{
 /* Individual Elements */
 code {
     border-left: 4px solid var(--accentprimary);
-    background-color: var(--backgroundsecondary);
-    color: var(--textdark);
+    background-color: var(--backgroundtertiary);
+    color: var(--textdarker);
     padding: 4px;
     line-height: 30pt;
 }
@@ -220,13 +220,12 @@ hr.main {
 }
 
 hr.main:after {
-    background: var(--backgroundsecondary);
-    content: '//';
+    background: var(--backgroundprimary);
+    content: '˚◡˚';
     color: var(--linkcolour);
-    padding: 0 4px;
-    margin: 0 50px;
+    padding: 0px 1px;
     position: relative;
-    top: -9px;
+    top: -12px;
 }
 
 /* Files */
