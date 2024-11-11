@@ -20,7 +20,7 @@ My home page also displays random images I found on the internet every time you 
 
 Overall, I'm very pleased with the design of my website. There are things I still want to add, such as comments under my blog posts as well as implementing random web apps on my website. If you're feeling nostalgic for the old design, here's my final screenshot before I published the new layout:
 
-<img src="../assets/images/oldlayout.png" alt="old layout" title="Old Layout" width="100%" loading = "lazy"/>
+![Old Layout](../assets/images/website_iteration1.png)
 
 ### Update 2024:
 

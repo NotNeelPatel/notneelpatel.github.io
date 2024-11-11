@@ -211,12 +211,10 @@ hr {
 hr.main {
     max-width: 90%;
     height: 4px;
-    border-top: 1px solid var(--accentprimary);
-    border-right: 1px solid var(--accentprimary);
-    border-bottom: 1px solid var(--accentprimary);
-    border-left: 1px solid var(--accentprimary);
+    border: 1px solid var(--accentprimary);
     overflow: visible;
     text-align: center;
+    margin-top: 15px;
 }
 
 hr.main:after {
