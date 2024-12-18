@@ -1,4 +1,4 @@
-const dir = './assets/images/home/';
+const dir = "./assets/images/home/";
 const LENGTH = 71;
 
 let len = LENGTH;
@@ -16,7 +16,7 @@ for (let i = 0; i < 4; i++) {
         image_node.loading = "lazy";
         image_node.src = dir + rand + ".jpg";
         image_node.style =
-        "display: flex; flex-wrap:wrap; justify-content: space-between; margin-top:20px";
+            "display: flex; flex-wrap:wrap; justify-content: space-between; margin-top:20px";
         document.getElementById("images").appendChild(image_node);
     } else {
         i -= 1;

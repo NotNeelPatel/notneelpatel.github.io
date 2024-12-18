@@ -1,8 +1,8 @@
 @import url(root.css);
 
-#novatorem{
-    background-color: var(--backgroundtertiary); 
-    border: 2px solid var(--textlight);  
+#novatorem {
+    background-color: var(--backgroundtertiary);
+    border: 2px solid var(--textlight);
     border-radius: 15px;
 }
 
@@ -24,20 +24,18 @@ aside {
     text-align: center;
 }
 
-
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width: 1200px) {
     #flex {
         flex-wrap: wrap;
     }
 
-    #sidebar{
+    #sidebar {
         padding: 0;
     }
 
     aside {
         width: 100%;
     }
-
 
     img {
         max-width: 100%;

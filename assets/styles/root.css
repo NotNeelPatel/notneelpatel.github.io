@@ -1,15 +1,14 @@
 /*--- Imports ---*/
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 
 /*--- Colour Scheme ---*/
-:root{
+:root {
     --backgroundprimary: #f2efdf;
     --backgroundsecondary: #f2efdf;
     --backgroundtertiary: #bec5b2;
     --accentprimary: #35a77c;
     --accentsecondary: #f44336;
-    
+
     --textlighter: #4d5960;
     --textlight: #3a464c;
     --textdark: #333c43;
@@ -22,12 +21,12 @@
     --italicizedfont: "Lora", sans-serif;
 }
 
-:root.light{
+:root.light {
     --backgroundprimary: #f2efdf;
     --backgroundsecondary: #f2efdfe6;
     --backgroundtertiary: #bec5b2;
     --accentprimary: #35a77c;
-    
+
     --textlighter: #4d5960;
     --textlight: #3a464c;
     --textdark: #333c43;
@@ -36,12 +35,12 @@
     --linkcolour: #35a77c;
 }
 
-:root.dark{
+:root.dark {
     --backgroundprimary: #2c3831;
     --backgroundsecondary: #2c3831e6;
     --backgroundtertiary: #48584e;
     --accentprimary: #83c092;
-    
+
     --textlighter: #a1b691;
     --textlight: #ffe9b6;
     --textdark: #ffe9b6;
@@ -59,12 +58,12 @@ html {
 }
 
 @keyframes moveBackground {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 0px 800px; /* Adjust this to control speed */
-  }
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0px 800px; /* Adjust this to control speed */
+    }
 }
 /* Header */
 header {
@@ -72,7 +71,7 @@ header {
     display: grid;
     grid-template-columns: 5% 1fr 5%;
     grid-column-gap: 0px;
-    grid-row-gap: 0px; 
+    grid-row-gap: 0px;
     grid-template-rows: 0;
     padding-bottom: 70px;
     padding-top: -10px;
@@ -87,15 +86,15 @@ header h1 {
 header a::after {
     width: 0%;
     transform: scaleX(0);
-  }
-  
+}
+
 header a:hover::after {
     transform: scaleX(0);
-  }
+}
 
 #darkModeToggle {
     text-decoration: none;
-    color: transparent;  
+    color: transparent;
     text-shadow: 0 0 0 var(--accentprimary);
     font-size: x-large;
     margin-right: 0;
@@ -105,7 +104,7 @@ header a:hover::after {
     text-align: center;
 }
 
-.navbar li{
+.navbar li {
     display: inline;
 }
 
@@ -124,7 +123,7 @@ body {
     padding: 0;
 }
 
-#main-container{
+#main-container {
     background-color: var(--backgroundprimary);
     padding: 5px 4vw;
 }
@@ -136,7 +135,7 @@ footer {
 }
 
 footer a {
-    color: var(--textlighter)
+    color: var(--textlighter);
 }
 
 /* Text */
@@ -159,7 +158,6 @@ h5 {
     color: var(--textlight);
 }
 
-
 /* Modified code from https://github.com/Softwave/softwave.github.io/blob/master/style.css#L108 */
 
 a {
@@ -167,10 +165,10 @@ a {
     display: inline;
     position: relative;
     color: var(--linkcolour);
-  }
-  
+}
+
 a::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 100%;
     transform: scaleX(0);
@@ -180,17 +178,16 @@ a::after {
     background-color: var(--linkcolour);
     transform-origin: bottom right;
     transition: transform 0.15s ease-out;
-  }
-  
+}
+
 a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
-  }
-
-h1 a{
-    color:var(--accentprimary);
 }
 
+h1 a {
+    color: var(--accentprimary);
+}
 
 /* Individual Elements */
 code {
@@ -219,7 +216,7 @@ hr.main {
 
 hr.main:after {
     background: var(--backgroundprimary);
-    content: '˚◡˚';
+    content: "˚◡˚";
     color: var(--linkcolour);
     padding: 0px 1px;
     position: relative;
@@ -231,8 +228,8 @@ img.no-border {
     border: none;
 }
 
-audio{
-    border-radius:15px;
+audio {
+    border-radius: 15px;
 }
 
 /* Viewports */
@@ -241,9 +238,8 @@ audio{
     zoom: 1;
 }
 
-@media only screen and (max-width:1200px) {
-
-    h1{
+@media only screen and (max-width: 1200px) {
+    h1 {
         font-size: x-large;
     }
 
@@ -285,7 +281,3 @@ audio{
         margin-right: 15%;
     }
 }
-
-
-
-
