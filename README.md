@@ -2,7 +2,7 @@
 
 My personal website consisting of blog posts, projects, and other HTML/CSS/JS web development ideas.
 
-This website is an extension of me. If you're an employer looking to see my skills, please take a look at [my projects](https://notneelpatel.github.io/projects) and my [Linkedin](https://linkedin.com/in/notneelpatel).
+This website is an extension of me. If you're an employer looking to see my skills, please take a look at [my portfolio](https://notneelpatel.github.io/portfolio) and my [Linkedin](https://linkedin.com/in/notneelpatel).
 
 ## Built from Scratch
 
