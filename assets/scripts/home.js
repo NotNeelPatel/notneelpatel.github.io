@@ -1,5 +1,5 @@
 const dir = "./assets/images/home/";
-const LENGTH = 71;
+const LENGTH = 73;
 
 let len = LENGTH;
 let rand = 1;

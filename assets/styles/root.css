@@ -15,6 +15,7 @@
     --textdarker: #293136;
 
     --linkcolour: #35a77c;
+    --highlightcolour: #c0d7c5;
 
     --primaryfont: "Lora", serif;
     --secondaryfont: "Lora", serif;
@@ -33,6 +34,7 @@
     --textdarker: #293136;
 
     --linkcolour: #35a77c;
+    --highlightcolour: #c0d7c5;
 }
 
 :root.dark {
@@ -47,6 +49,7 @@
     --textdarker: #d3ceaa;
 
     --linkcolour: #83c092;
+    --highlightcolour: #48584e;
 }
 
 /*--- Global Styles ---*/
@@ -123,6 +126,7 @@ body {
     padding: 0;
 }
 
+
 #main-container {
     background-color: var(--backgroundprimary);
     padding: 5px 4vw;
@@ -187,6 +191,10 @@ a:hover::after {
 
 h1 a {
     color: var(--accentprimary);
+}
+
+::selection {
+    background: var(--highlightcolour);
 }
 
 /* Individual Elements */
