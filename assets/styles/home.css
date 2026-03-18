@@ -2,7 +2,8 @@
 
 #novatorem {
     background-color: var(--backgroundtertiary);
-    border: 2px solid var(--textlight);
+	padding: 4px;
+    border: 0px;
     border-radius: 15px;
 }
 
