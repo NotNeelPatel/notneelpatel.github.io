@@ -11,10 +11,6 @@
     display: flex;
 }
 
-#project-display {
-    place-items: center;
-}
-
 #sidebar {
     order: 3;
     padding: 20px;
