@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>notneelpatel.xyz</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/styles/home.css" />
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <img src="/assets/images/home/earth.gif" />
+        <h1>Not Neel Patel .xyz</h1>
+      </header>
+      <br />
+      <div class="navbar">
+        <a href="/index.html">home</a>
+        <a>/</a>
+        <a href="/about.html">about</a>
+        <a>/</a>
+        <a href="/writings.html">writings</a>
+        <a>/</a>
+        <a href="/links.html">links</a>
+      </div>
+      <div class="article">
+        <div class="article-title">
+          <h1>{{ article_title }}</h1>
+          <h3>{{ article_date }}</h3>
+        </div>
+        <hr />
+        <div class="article-toc">
+          <div class="article-content">{{ article_content }}</div>
+          <div class="table-of-contents">
+            <div class="img-text-inline toc-header">
+              <img src="/assets/images/home/earth.gif" />
+              <h3><a href="#top">table of contents</a></h3>
+            </div>
+            <div class="toc-body">{{ article_toc }}</div>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <footer>
+        <a href="/writings.html">←</a>
+        <p>2026 neel patel</p>
+        <a href="#top">↑</a>
+      </footer>
+    </main>
+  </body>
+</html>
