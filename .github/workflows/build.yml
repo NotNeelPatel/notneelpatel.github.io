@@ -25,7 +25,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release download --repo NotNeelPatel/static-site-generator --pattern '*.zip' --dir "$RUNNER_TEMP"
+          gh release download --repo NotNeelPatel/static-site-generator --pattern 'ssg' --dir "$RUNNER_TEMP"
           chmod +x "$RUNNER_TEMP/ssg"
 
       - name: Generate Site
