@@ -1,0 +1,113 @@
+# I Worry About Future Generations A Lot
+
+### 2024-01-05
+
+I am 20 years old. I have never had a girlfriend, let alone a wife. Yet despite
+this, I am extremely worried about the future and my non-existent child's future
+as well. As someone who is deeply interested in technology, I have the privilege
+of knowing how scary it can be. Additionally, I believe I have a unique
+perspective due to the timing of my birth.
+
+### Back in My Day
+
+I was born in the early 2000s. Phones, cameras, TVs, game consoles, and audio
+players were all fairly separated. As a result, everyone had to learn to
+interface with all these devices, which allowed us to be more knowledgeable on
+the subject. Additionally, they lacked power, so there were a lot of
+limitations. Phones could take pictures and play games, but the photos were of
+terrible quality and games were very simple.
+
+### Enter the 2010s
+
+A shift in the way we use technology occurred in the early 2010s with the advent
+of the smartphone, and subsequently, tablets. No longer do you absolutely need
+all these other devices, as smartphones got good enough to make many of them
+obsolete for the average person. iPads were the perfect gift for a child; no
+longer do you need to get them any other entertainment device as the iPad has
+them all. So naturally, parents across North America started getting iPads into
+their kids' hands, mine included. I have fond memories of learning to make music
+with Garageband and editing videos with iMovie. But for many kids, they didn't
+spend all their time doing creative work.
+
+### Here in Lies the Problem
+
+"iPad Kid" is a term for kids who grew up with an iPad addiction. iPad kids are
+really no different than any teenager or adult with an internet/social media
+addiction. In fact, I would argue almost everyone can be classified as an "iPad
+kid". The biggest difference between iPad kids and adults with internet
+addictions though, is that one is looked down upon significantly more and for
+good reason.
+
+One thing that is unique to this newer generation is the lack of traditional
+media influencing children's lives. These days, YouTubers and other content
+creators are what kids are consuming. Due to the video media becoming
+democratized, a problem arose: content moderation. Hundreds of thousands of
+videos are uploaded to YouTube every day, there is no way a human or even any
+form of automated moderation can catch all the bad actors. As a result, videos
+not safe for kids (or really anyone for that matter) have infiltrated YouTube
+Kids. The same can apply to Roblox, where once again, not all items/maps/users
+can be moderated by a human, and bad actors take advantage of that.
+
+Really think about that. We don't always know what kids are consuming these
+days. The sheer number of things that they are consuming in a day and the
+questionable quality is a recipe for disaster. If you think about it, the same
+can be said about everyone else too. We seem to just filter out all the garbage
+on social media, but I feel like we take our brains for granted that we're
+capable of not being impressed by low-quality social media posts. If you've
+gotten this far in this post, then you're part of a small percentage of people
+who probably don't have an unhealthy relationship with social media anymore (if
+not, ever), but it's an epidemic among our peers.
+
+My problem doesn't just lie in the fact that kids are consuming questionably bad
+content, but also in the fact that their imagination and creativity are at risk
+as well. Remember _Idiot Box_, that one episode of Spongebob about imagination?
+If you don't, the basic idea is that while Squidward had access to a brand new
+TV and all the things in the world, he was curious and jealous of Spongebob and
+Patrick's ability to keep themselves entertained using their imagination while
+inside a cardboard box. Of course, we want our kids to be like Spongebob and
+Patrick, but when there's a nice shiny rectangle that can display anything you
+want, who cares about a measly cardboard box? Remember that unlike TVs, iPads
+are supercomputers and have so many capabilities, and yet the vast majority of
+people using iPads (and smartphones and laptops) are just using them to watch
+slop. I worry that kids will have a hard time being alone with their thoughts or
+just imagining things if they are too reliant on their iPads.
+
+### A Spitting Image
+
+So, who's to blame? The social media and mobile game companies for exploiting
+children? Apple for making supercomputers that are gimped by software? We can
+blame these large entities all we want, but this won't change anything nearly as
+much as what parents can do. You can't just get rid of the iPad; that is not
+possible in this day and age unfortunately. If you are a zoomer, imagine if your
+parents didn't buy you a DS/PSP/Game Boy or Wii/Playstation/Xbox. You would
+probably feel quite left out of social activities happening with other kids. The
+reality is that iPads have lots of capabilities for good, but unfortunately,
+there is also a lot of bad stuff that a kid can be exposed to with an iPad.
+
+A lot of children's habits come from what they observe in the household. So if a
+child sees their parent on their phone all day, then it makes it seem ok that
+they are on their iPad all day. If the parent is solely a provider of basic
+needs to the child and doesn't interact with their child in any other meaningful
+way, then who would the child trust more when they have problems? Will they
+consult their parent who they don't know at all or the iPad? I understand that
+parenting is hard. Being an adult is hard enough; I can't even fathom what
+happens when you bring another human that you're fully responsible for into the
+equation. It makes sense why a parent would just buy their kid an iPad to shut
+them up while they cook or whatever else they have to do. Due to the lack of
+limitations of iPads, kids will not learn what "no" means. So when they hear
+that word, they don't know how to react appropriately. A lack of discipline
+makes it a lot harder for kids to learn and be motivated to do hard/challenging
+work in the future.
+
+### When we Become Parents
+
+I hope this current generation of kids and parents serves as a warning for
+future parents on how not to raise a child. I personally don't think that this
+next generation will be very great, but I have faith in my fellow zoomers that
+we will have better children. Since we were really the last generation to have
+(part of) a childhood without smartphones, it is up to us to teach our kids of
+the time before that; to show them how to live properly, without a social media
+addiction, with a bright imagination. I hope the kids growing up with my kids
+are creative. A good generation starts with a good generation of parenting. If
+we want our kids to have good habits, then we need to have good habits and get
+rid of our bad habits.

@@ -1,0 +1,123 @@
+@import url(root.css);
+
+body {
+  position: relative;
+}
+
+#main-container {
+  padding: 0 35px 15px 35px;
+}
+
+#spider-container {
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  width: 20vw;
+}
+#spider-container p {
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+#welcome-message a {
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+}
+#welcome-message img {
+  height: 30px;
+}
+
+#hero {
+  display: flex;
+  gap: 15px;
+}
+
+#hero-text {
+  text-align: justify;
+}
+#hero-text h2 {
+  font-weight: 600;
+  margin-top: 0;
+  font-size: 25px;
+}
+#hero-text p {
+  margin-bottom: 0;
+}
+
+#web-project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 15%;
+}
+
+#web-project-list h3 {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+
+.web-project {
+  width: fit-content;
+}
+
+.web-project p {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.web-project img {
+  width: 100%;
+}
+
+#under-header {
+  margin-top: 20px;
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+}
+
+#under-header-img {
+  width: 45%;
+}
+
+#under-header-text {
+  width: 35%;
+}
+
+#88x31 {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (min-width: 1200px) {
+}
+@media only screen and (max-width: 1000px) {
+  #hero {
+    flex-direction: column;
+  }
+  #hero-text h2 {
+    font-size: 18px;
+  }
+  #under-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  #web-project-list {
+    width: 100%;
+  }
+  #under-header-img {
+    width: 100%;
+  }
+  #under-header-text {
+    width: 100%;
+  }
+  body {
+    flex-direction: column;
+    align-items: center;
+  }
+  #spider-container {
+    position: static;
+    width: fit-content;
+  }
+}

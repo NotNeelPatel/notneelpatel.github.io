@@ -1,0 +1,20 @@
+@media screen and (min-width: 1200px) {
+}
+
+.article-content {
+  width: fit-content;
+  background: none;
+}
+
+#specs-images {
+  width: 25%;
+}
+@media only screen and (max-width: 1000px) {
+  #specs-images {
+    width: 50%;
+  }
+  .img-text-inline {
+    flex-direction: column;
+    align-items: center;
+  }
+}
