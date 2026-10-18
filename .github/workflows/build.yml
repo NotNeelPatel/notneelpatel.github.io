@@ -32,7 +32,7 @@ jobs:
         env:
           SSG_SITE_PATH: ${{ github.workspace }}/
         run: |
-          "$RUNNER_TEMP/ssg-bin/ssg"
+          "$RUNNER_TEMP/ssg"
           ls -R "$SSG_SITE_PATH/out"
 
       - name: Upload Pages Artifact
