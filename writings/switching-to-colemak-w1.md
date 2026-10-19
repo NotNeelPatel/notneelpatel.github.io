@@ -19,7 +19,7 @@ My first few attempts went terribly as expected. I had the layout overlaid over
 Monkeytype so that I could see it without having to change any keycaps or
 anything.
 
-<img src="../assets/images/8wpm.png" alt="8 wpm w/ keyboard" width="100%" loading="lazy"/>
+![8 wpm w/ keyboard](/assets/images/8wpm.png)
 
 After about 30 minutes, I was able to type around 10 wpm on average.
 
@@ -32,7 +32,7 @@ QWERTY speed is about 95 wpm vs. my 75. Despite that, he and I were shocked. I
 tried to catch up, and even today, I have yet to reach him. On the bright side,
 I can now average around 30 wpm, and my personal best is 41 wpm.
 
-<img src="../assets/images/41wpm.png" alt="41 wpm" width="100%" loading="lazy"/>
+![41 wpm](/assets/images/41wpm.png)
 
 ### Goals For Next Week
 

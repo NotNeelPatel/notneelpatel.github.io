@@ -1,14 +1,14 @@
 @font-face {
-  font-family: "Iosevka Etoile";
-  src: url("/assets/fonts/IosevkaEtoile-Regular.woff2");
-}
-@font-face {
   font-family: "Modern No.20";
   src: url("/assets/fonts/Modern_No_20.woff2");
 }
 @font-face {
   font-family: "That That New Pixel Variable Regular";
   src: url("/assets/fonts/ThatThatNewPixelFamily-Square.woff2");
+}
+@font-face {
+  font-family: "Xanh Mono";
+  src: url("/assets/fonts/XanhMono.woff2");
 }
 :root {
   --backgroundprimary: #e6e1de;
@@ -24,12 +24,14 @@
   --accent: #ff7474;
 
   --textdark: #1b252b;
+  --textlighter: #343c5d;
   --textcode: #1b7218;
   --linkcolour: #01269a;
   --linkhighlight: #732a82;
   --headercolour: #0b277a;
 
   --monofont: "Iosevka Etoile", monospace;
+  --monofont: "Xanh Mono", monospace;
   --headerfont: "Modern No.20", serif;
   --primaryfont: "That That New Pixel Variable Regular", serif;
 
@@ -199,12 +201,6 @@ a:hover {
   color: var(--linkhighlight);
 }
 
-.img-text-inline {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
 pre {
   text-align: left;
 }
@@ -218,6 +214,34 @@ hr {
   margin: 20px 0;
   border: 3px solid var(--border);
   border-bottom: none;
+}
+
+ul {
+  list-style-type: "✰ ";
+  font-size: 18px;
+}
+
+li {
+  margin: 8px 0;
+}
+
+.img-text-inline {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.article p:has(> img) {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+.caption {
+  font-style: italic;
+  font-size: 14px;
+  color: var(--textlighter);
+  margin: 0;
 }
 
 .table-of-contents {
@@ -318,6 +342,10 @@ hr {
   }
 
   p {
+    font-size: 16px;
+  }
+
+  ul {
     font-size: 16px;
   }
 

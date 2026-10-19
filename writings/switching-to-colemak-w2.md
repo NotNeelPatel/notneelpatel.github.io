@@ -22,7 +22,7 @@ In terms of my goals I set last week, I achieved well beyond all 3 goals.
 
 - I use Colemak for ~90% of the time now.
 
-<img src="../assets/images/60wpm.png" alt="60 wpm" width="100%" loading="lazy"/>
+![60 wpm](/assets/images/60wpm.png)
 
 ### Comparison to QWERTY
 

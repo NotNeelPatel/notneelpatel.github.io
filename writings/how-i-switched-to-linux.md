@@ -60,7 +60,7 @@ to proprietary software, such as GIMP and open-source versions of Chrome
 having a really cool and aesthetically-pleasing rice solidified my stay. (Also,
 I made that wallpaper; the center features a manga panel from Samurai Champloo.)
 
-<img src="../assets/images/setup.png" alt="my really cool setup" width="100%" loading="lazy"/>
+![my really cool setup](/assets/images/setup.png)
 
 Update 2023: I still distro hop :)
 

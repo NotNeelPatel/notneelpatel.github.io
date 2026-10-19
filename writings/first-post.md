@@ -15,4 +15,4 @@ web design, but I'm getting there.
 Oh, and one other thing I learned is how to insert images in markdown. Here's a
 picture of a cat:
 
-<img src="../assets/images/cat_sleeping.png" alt="picture of a cat sleeping" width="100%" loading="lazy"/>
+![picture of a cat sleeping](/assets/images/cat_sleeping.png)
