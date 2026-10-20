@@ -52,3 +52,8 @@ here's my final screenshot before I published the new layout:
 I forgot to make a new blog post about my new new site layout, but my website no
 longer has comments because nobody actually reads these posts and it's not worth
 the hassle of maintaining comments.
+
+### Update 2026
+
+I remembered to write something about the new new new new site layout!
+[Check it out!](./change-to-new-layout-2026.html)

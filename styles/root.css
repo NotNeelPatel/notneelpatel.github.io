@@ -221,6 +221,10 @@ ul {
   font-size: 18px;
 }
 
+ul li:hover::marker {
+  color: #ba970e;
+}
+
 li {
   margin: 8px 0;
 }
@@ -312,7 +316,7 @@ li {
 
 @media screen and (max-width: 1600px) {
   main {
-    width: 85vw;
+    width: 87vw;
     margin: 15px 0px;
   }
 }
@@ -350,8 +354,12 @@ li {
   }
 
   main {
-    width: 85vw;
+    width: 90vw;
     margin: 15px 0px;
+  }
+
+  .article {
+    padding: 15px 10px 0px 10px;
   }
 
   .article h1 {
